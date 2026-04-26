@@ -1,0 +1,44 @@
+------------------------------------------ fop -------------------------------------------
+dev@8ea4f43e9f60:/graal-dev/benchmarks/results/fop$ grep "PASSED in" pea_on.txt
+===== DaCapo 23.11-MR2-chopin fop PASSED in 311 msec =====
+dev@8ea4f43e9f60:/graal-dev/benchmarks/results/fop$ grep "PASSED in" pea_off.txt
+===== DaCapo 23.11-MR2-chopin fop PASSED in 342 msec =====
+
+dev@8ea4f43e9f60:/graal-dev/benchmarks/results/fop$ grep "Pause" pea_on_gc.log | grep -oP '\d+\.\d+' | awk '{sum += $1} END {print sum}'
+9320.67
+dev@8ea4f43e9f60:/graal-dev/benchmarks/results/fop$ grep "Pause" pea_off_gc.log | grep -oP '\d+\.\d+' | awk '{sum += $1} END {print sum}'
+10218.4
+
+-------------------------------------- h2 -------------------------------------
+dev@8ea4f43e9f60:/graal-dev/benchmarks/results/h2$ grep "PASSED in" pea_on.txt
+===== DaCapo 23.11-MR2-chopin h2 PASSED in 3484 msec 84646 =====
+dev@8ea4f43e9f60:/graal-dev/benchmarks/results/h2$ grep "PASSED in" pea_off.txt
+===== DaCapo 23.11-MR2-chopin h2 PASSED in 3698 msec =====
+
+dev@8ea4f43e9f60:/graal-dev/benchmarks/results/h2$ grep "Pause" pea_on_gc.log | grep -oP '\d+\.\d+' | awk '{sum += $1} END {print sum}'
+57779.1
+dev@8ea4f43e9f60:/graal-dev/benchmarks/results/h2$ grep "Pause" pea_off_gc.log | grep -oP '\d+\.\d+' | awk '{sum += $1} END {print sum}'
+67447.7
+
+
+
+---------------------------------------- luindex ----------------------------
+dev@8ea4f43e9f60:/graal-dev/benchmarks/results/luindex$ grep "PASSED in" pea_off.txt
+===== DaCapo 23.11-MR2-chopin luindex PASSED in 2661 msec =====
+dev@8ea4f43e9f60:/graal-dev/benchmarks/results/luindex$ grep "PASSED in" pea_on.txt
+===== DaCapo 23.11-MR2-chopin luindex PASSED in 2568 msec =====
+dev@8ea4f43e9f60:/graal-dev/benchmarks/results/luindex$ grep "Pause" pea_on_gc.log | awk '{print $(NF-1)}' | sed 's/ms//' | awk '{sum += $1} END {print sum}'
+15347
+dev@8ea4f43e9f60:/graal-dev/benchmarks/results/luindex$ grep "Pause" pea_off_gc.log | awk '{print $(NF-1)}' | sed 's/ms//' | awk '{sum += $1} END {print sum}'
+15362
+
+
+----------------------------------------- lusearch --------------------------------
+dev@8ea4f43e9f60:/graal-dev/benchmarks/results/lusearch$ grep "PASSED in" pea_on.txt
+===== DaCapo 23.11-MR2-chopin lusearch PASSED in 1999 msec =====
+dev@8ea4f43e9f60:/graal-dev/benchmarks/results/lusearch$ grep "PASSED in" pea_off.txt
+===== DaCapo 23.11-MR2-chopin lusearch PASSED in 2023 msec =====
+dev@8ea4f43e9f60:/graal-dev/benchmarks/results/lusearch$ grep "Pause" pea_on_gc.log | awk '{print $(NF-1)}' | sed 's/ms//' | awk '{sum += $1} END {print sum}'
+257030
+dev@8ea4f43e9f60:/graal-dev/benchmarks/results/lusearch$ grep "Pause" pea_off_gc.log | awk '{print $(NF-1)}' | sed 's/ms//' | awk '{sum += $1} END {print sum}'
+261962
