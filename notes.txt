@@ -15,8 +15,8 @@ ON LOCAL MACHINE:
   - docker compose exec graal bash
 
 2. Select the JDK with JVMCI support using mx fetch-jdk
-  - mx fetch-jdk
-  - export JAVA_HOME=/home/ubuntu/.mx/jdks/labsjdk-ce-latest-jvmci-25.1-b16_amd64
+  - mx fetch-jdk or mx -y fetch-jdk default
+  - export JAVA_HOME=/home/ubuntu/.mx/jdks/labsjdk-ce-latest-jvmci-25.1-b17_amd64
   - export PATH=$JAVA_HOME/bin:$PATH
 
 3. Build the compiler using mx build
