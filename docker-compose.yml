@@ -1,0 +1,16 @@
+services:
+  graal:
+    build: .
+    image: graal-compiler
+    container_name: graal-container
+    tty: true
+    stdin_open: true
+    init: true
+    user: '${UID:-1000}:${GID:-1000}'
+    volumes:
+      # - ./graal:/graal-dev/graal
+      # - ./graal_IR:/graal-dev/graal_IR
+      # - ./graal-programs:/graal-dev/graal-programs
+      # - ./benchmarks:/graal-dev/benchmarks
+      # - ./mx-cache:/home/dev/.mx
+      - .:/graal-dev

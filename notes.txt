@@ -1,0 +1,66 @@
+STEPS:
+
+ON LOCAL MACHINE:
+1. Clone the graal repository in your local machine
+  - git clone https://github.com/oracle/graal.git
+  - Make graal_IR, graal_programs, mx-cache directories in the same location as graal/
+
+1. To build the docker image and run the container, use the following commands:
+  - docker build -t graal-dev:latest .
+  - docker run -it --rm -v /path/to/graal-dev:/graal-dev graal-dev:latest bash
+
+1. If we are using compose, we can use the following command to run the container:
+  - docker compose up -d --build
+  - docker compose up -d
+  - docker compose exec graal bash
+
+2. Select the JDK with JVMCI support using mx fetch-jdk
+  - mx fetch-jdk
+  - export JAVA_HOME=/home/ubuntu/.mx/jdks/labsjdk-ce-latest-jvmci-25.1-b16_amd64
+  - export PATH=$JAVA_HOME/bin:$PATH
+
+3. Build the compiler using mx build
+  - cd graal/compiler
+  - mx java -version
+  - mx build
+
+
+How to run?
+mx vm \
+-XX:+PrintCompilation \
+-XX:+UnlockExperimentalVMOptions \
+-XX:+EnableJVMCI \
+  -XX:+UseJVMCICompiler \
+  -Dgraal.MethodFilter=Test.main,Test.add \
+  -Dgraal.Dump=:2 \
+  -Dgraal.PrintGraph=File \
+  -Dgraal.DumpPath=/graal-dev/graal_IR/ \
+  -cp /graal-dev/graal-programs \
+  Test
+
+
+
+
+
+
+
+
+
+DaCapo Testing: h2, luindex, lusearch, sunflow, pmd
+
+luindex:
+  Gain = (Toff - Ton) / Toff * 100
+  Toff = grep "PASSED in" pea_on.txt
+  Ton = grep "PASSED in" pea_off.txt
+
+
+  Memory (GC Overhead) Reduction = (GCoff - GCon) / GCoff * 100
+  GCon = grep "Pause" pea_on_gc.log | grep -oP '\d+\.\d+' | awk '{sum += $1} END {print sum}'
+  GCoff = grep "Pause" pea_off_gc.log | grep -oP '\d+\.\d+' | awk '{sum += $1} END {print sum}'
+
+
+
+Meeting notes:
+03-03-2026
+1. intellij init
+2. terminflex
