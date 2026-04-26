@@ -31,6 +31,7 @@ mx vm \
 -XX:+UnlockExperimentalVMOptions \
 -XX:+EnableJVMCI \
   -XX:+UseJVMCICompiler \
+  -Djdk.graal.TrackNodeSourcePosition=true \
   -Dgraal.MethodFilter=Test.main,Test.add \
   -Dgraal.Dump=:2 \
   -Dgraal.PrintGraph=File \
@@ -38,6 +39,10 @@ mx vm \
   -cp /graal-dev/graal-programs \
   Test
 
+Use -Dgraal.PartialEscapeAnalysis=true to enable PEA.
+Use -Djdk.graal.LogFile=<path> to redirect Graal log output to a file.
+
+mx vm -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI -XX:+UseJVMCICompiler -XX:-TieredCompilation -XX:CompileThreshold=1 -XX:CompileCommand=dontinline,A.foo -Dgraal.PartialEscapeAnalysis=true -cp /graal-dev/graal-programs Test
 
 
 
