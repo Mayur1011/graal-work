@@ -1,5 +1,7 @@
+TC ?= 1
+
 run: clean
-	javac Test.java
+	javac Test$(TC)/*.java
 
 clean:
-	rm -f *.class
+	rm -rf *.class

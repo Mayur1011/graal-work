@@ -19,7 +19,7 @@ class A {
   int x;
 
   int foo(boolean b) {
-    A a = new A(); // BCI ~?
+    A a = new A();
     a.x = 10;
 
     if (b) {
