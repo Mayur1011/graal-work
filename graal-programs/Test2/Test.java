@@ -25,19 +25,86 @@ public class Test {
   }
 }
 
-
 /*
-In a compiler, an object's state is not a single, global tag.
-The compiler tracks the state of the object at every specific point in the control flow graph.
-
-looking at the Loop Header (BCI 10), it is a Merge Point where two distinct paths of the code join together.
-
-The compiler looks at its storage/tracking info for the incoming paths:
-1. Path A (outside): "Snapshot says b is VIRTUAL."
-2. Path B (loop around): "Snapshot says b is MATERIALIZED."
-
-the exact same object b.
-The compiler knows it is the same object because it tracks its unique ID (e.g., virtual object with id 0).
-
-But because the compiler traces timelines (execution paths), it arrives at the loop header with two conflicting timelines for that single object.
-*/
+ * Compiler Logs:
+ * CompileCommand: dontinline B.bar bool dontinline = true
+ * HotSpotGraalCompiler created with options:
+ * {CompilationFailureAction=Diagnose, DumpOnError=true,
+ * ObjdumpExecutables=objdump,gobjdump, PartialEscapeAnalysis=true,
+ * PrintGraph=Network, ShowDumpFiles=true, TrackNodeSourcePosition=true}
+ * ==========================================================
+ * [PartialEscapePhase.java] Running on: Test.main(String[])
+ * ==========================================================
+ * [PartialEscapePhase.java] Running on: Test.main(String[])
+ * -------------------------------------------------
+ * [VirtualizerToolImpl.java] Creating virtual object with id: 0 in class: Test
+ * [VirtualizerToolImpl.java] Current node: 3|NewInstance
+ * [VirtualizerToolImpl.java] Source position of current node: at
+ * Test.main(Test.java:19) [bci: 0]
+ * -------------------------------------------------
+ * -------------------------------------------------
+ * [PartialEscapeClosure.java]: Materializing virtual object with id: 0 in
+ * method: main (class: Test)
+ * [PartialEscapeClosure.java]: 48|Invoke#B.bar at BCI: 37
+ * [PartialEscapeClosure.java]: Virtual object source position: at
+ * Test.main(Test.java:19) [bci: 0] at BCI: 0
+ * -------------------------------------------------
+ * -------------------------------------------------
+ * [PartialEscapeClosure.java]: Materializing virtual object with id: 0 in
+ * method: main (class: Test)
+ * [PartialEscapeClosure.java]: 7|EndNode at BCI: 10
+ * [PartialEscapeClosure.java]: Virtual object source position: at
+ * Test.main(Test.java:19) [bci: 0] at BCI: 0
+ * -------------------------------------------------
+ * -------------------------------------------------
+ * [VirtualizerToolImpl.java] Creating virtual object with id: 0 in class: Test
+ * [VirtualizerToolImpl.java] Current node: 61|CommitAllocation
+ * [VirtualizerToolImpl.java] Source position of current node: at
+ * Test.main(String[]) [bci: -6] Placeholder
+ * -------------------------------------------------
+ * -------------------------------------------------
+ * [PartialEscapeClosure.java]: Materializing virtual object with id: 0 in
+ * method: main (class: Test)
+ * [PartialEscapeClosure.java]: 48|Invoke#B.bar at BCI: 37
+ * [PartialEscapeClosure.java]: Virtual object source position: at
+ * Test.main(Test.java:19) [bci: 0] at BCI: 0
+ * -------------------------------------------------
+ * -------------------------------------------------
+ * [PartialEscapeClosure.java]: Materializing virtual object with id: 0 in
+ * method: main (class: Test)
+ * [PartialEscapeClosure.java]: 7|EndNode at BCI: 10
+ * [PartialEscapeClosure.java]: Virtual object source position: at
+ * Test.main(Test.java:19) [bci: 0] at BCI: 0
+ * -------------------------------------------------
+ * ==========================================================
+ * [PartialEscapePhase.java] Running on: B.<init>()
+ * ==========================================================
+ * [PartialEscapePhase.java] Running on: B.bar(boolean)
+ * -------------------------------------------------
+ * [VirtualizerToolImpl.java] Creating virtual object with id: 0 in class: B
+ * [VirtualizerToolImpl.java] Current node: 4|NewInstance
+ * [VirtualizerToolImpl.java] Source position of current node: at
+ * B.bar(Test.java:7) [bci: 0]
+ * -------------------------------------------------
+ * -------------------------------------------------
+ * [PartialEscapeClosure.java]: Materializing virtual object with id: 0 in
+ * method: bar (class: B)
+ * [PartialEscapeClosure.java]: 14|StoreField#s at BCI: 19
+ * [PartialEscapeClosure.java]: Virtual object source position: at
+ * B.bar(Test.java:7) [bci: 0] at BCI: 0
+ * -------------------------------------------------
+ * -------------------------------------------------
+ * [VirtualizerToolImpl.java] Creating virtual object with id: 0 in class: B
+ * [VirtualizerToolImpl.java] Current node: 20|CommitAllocation
+ * [VirtualizerToolImpl.java] Source position of current node: at B.bar(boolean)
+ * [bci: -6] Placeholder
+ * -------------------------------------------------
+ * -------------------------------------------------
+ * [PartialEscapeClosure.java]: Materializing virtual object with id: 0 in
+ * method: bar (class: B)
+ * [PartialEscapeClosure.java]: 14|StoreField#s at BCI: 19
+ * [PartialEscapeClosure.java]: Virtual object source position: at
+ * B.bar(Test.java:7) [bci: 0] at BCI: 0
+ * -------------------------------------------------
+ *
+ */

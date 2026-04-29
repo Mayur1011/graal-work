@@ -1,0 +1,109 @@
+[02:06] mayur:benchmark_results | grep "PASSED" avrora.txt
+===== DaCapo 23.11-MR2-chopin avrora PASSED in 2700 msec =====
+===== DaCapo 23.11-MR2-chopin avrora PASSED in 2680 msec =====
+===== DaCapo 23.11-MR2-chopin avrora PASSED in 2653 msec =====
+===== DaCapo 23.11-MR2-chopin avrora PASSED in 2676 msec =====
+
+[02:07] mayur:testing | grep "PASSED" benchmark_results/lusearch.txt
+===== DaCapo 23.11-MR2-chopin lusearch PASSED in 2221 msec =====
+===== DaCapo 23.11-MR2-chopin lusearch PASSED in 2296 msec =====
+===== DaCapo 23.11-MR2-chopin lusearch PASSED in 2482 msec =====
+===== DaCapo 23.11-MR2-chopin lusearch PASSED in 2477 msec =====
+
+[02:07] mayur:testing | grep "PASSED" benchmark_results/luindex.txt
+===== DaCapo 23.11-MR2-chopin luindex PASSED in 3197 msec =====
+===== DaCapo 23.11-MR2-chopin luindex PASSED in 2840 msec =====
+===== DaCapo 23.11-MR2-chopin luindex PASSED in 3175 msec =====
+===== DaCapo 23.11-MR2-chopin luindex PASSED in 2952 msec =====
+
+[02:12] mayur:testing | grep "PASSED" benchmark_results/sunflow.txt
+===== DaCapo 23.11-MR2-chopin sunflow PASSED in 3908 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow PASSED in 4346 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow PASSED in 4026 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow PASSED in 3753 msec =====
+
+[02:12] mayur:testing | grep "PASSED" benchmark_results/graphchi.txt
+===== DaCapo 23.11-MR2-chopin graphchi PASSED in 3167 msec =====
+===== DaCapo 23.11-MR2-chopin graphchi PASSED in 3384 msec =====
+===== DaCapo 23.11-MR2-chopin graphchi PASSED in 2932 msec =====
+===== DaCapo 23.11-MR2-chopin graphchi PASSED in 2781 msec =====
+
+[02:18] mayur:testing | grep "PASSED" benchmark_results/fop.txt
+===== DaCapo 23.11-MR2-chopin fop PASSED in 406 msec =====
+===== DaCapo 23.11-MR2-chopin fop PASSED in 451 msec =====
+===== DaCapo 23.11-MR2-chopin fop PASSED in 566 msec =====
+===== DaCapo 23.11-MR2-chopin fop PASSED in 486 msec =====
+
+[02:18] mayur:testing | grep "PASSED" benchmark_results/h2.txt
+===== DaCapo 23.11-MR2-chopin h2 PASSED in 3842 msec =====
+===== DaCapo 23.11-MR2-chopin h2 PASSED in 3553 msec =====
+===== DaCapo 23.11-MR2-chopin h2 PASSED in 3921 msec =====
+===== DaCapo 23.11-MR2-chopin h2 PASSED in 3854 msec =====
+
+
+
+
+
+----------------------------------------------------------- GC ----------------------------------------------------------
+Processing avrora...
+Running Graal Baseline (No PEA)...
+Running Graal Optimized (With PEA)...
+------------------------------------------
+Results for avrora:
+Total GC Pause Time (No PEA):   255.786 ms
+Total GC Pause Time (With PEA): 212.477 ms
+GC Load Reduction: 16.00 %
+------------------------------------------
+Processing lusearch...
+Running Graal Baseline (No PEA)...
+Running Graal Optimized (With PEA)...
+------------------------------------------
+Results for lusearch:
+Total GC Pause Time (No PEA):   636.664 ms
+Total GC Pause Time (With PEA): 617.211 ms
+GC Load Reduction: 3.00 %
+------------------------------------------
+Processing luindex...
+Running Graal Baseline (No PEA)...
+Running Graal Optimized (With PEA)...
+------------------------------------------
+Results for luindex:
+Total GC Pause Time (No PEA):   365.829 ms
+Total GC Pause Time (With PEA): 274.995 ms
+GC Load Reduction: 24.00 %
+------------------------------------------
+Processing sunflow...
+Running Graal Baseline (No PEA)...
+Running Graal Optimized (With PEA)...
+------------------------------------------
+Results for sunflow:
+Total GC Pause Time (No PEA):   847.047 ms
+Total GC Pause Time (With PEA): 731.208 ms
+GC Load Reduction: 13.00 %
+------------------------------------------
+Processing graphchi...
+Running Graal Baseline (No PEA)...
+Running Graal Optimized (With PEA)...
+------------------------------------------
+Results for graphchi:
+Total GC Pause Time (No PEA):   2399.29 ms
+Total GC Pause Time (With PEA): 1538.55 ms
+GC Load Reduction: 35.00 %
+------------------------------------------
+Processing fop...
+Running Graal Baseline (No PEA)...
+Running Graal Optimized (With PEA)...
+------------------------------------------
+Results for fop:
+Total GC Pause Time (No PEA):   359.072 ms
+Total GC Pause Time (With PEA): 374.992 ms
+GC Load Reduction: -4.00 %
+------------------------------------------
+Processing h2...
+Running Graal Baseline (No PEA)...
+Running Graal Optimized (With PEA)...
+------------------------------------------
+Results for h2:
+Total GC Pause Time (No PEA):   5021.58 ms
+Total GC Pause Time (With PEA): 4878.11 ms
+GC Load Reduction: 2.00 %

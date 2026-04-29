@@ -63,8 +63,27 @@ luindex:
   GCoff = grep "Pause" pea_off_gc.log | grep -oP '\d+\.\d+' | awk '{sum += $1} END {print sum}'
 
 
+Every time PEA runs, it starts with a completely clean slate.
 
-Meeting notes:
-03-03-2026
-1. intellij init
-2. terminflex
+
+Test2:
+/*
+In a compiler, an object's state is not a single, global tag.
+The compiler tracks the state of the object at every specific point in the control flow graph.
+
+looking at the Loop Header (BCI 10), it is a Merge Point where two distinct paths of the code join together.
+
+The compiler looks at its storage/tracking info for the incoming paths:
+1. Path A (outside): "Snapshot says b is VIRTUAL."
+2. Path B (loop around): "Snapshot says b is MATERIALIZED."
+
+the exact same object b.
+The compiler knows it is the same object because it tracks its unique ID (e.g., virtual object with id 0).
+
+But because the compiler traces timelines (execution paths), it arrives at the loop header with two conflicting timelines for that single object.
+*/
+
+
+
+ObjectState.java:
+it does lazy allocation (CoW) of the object state. It only creates a new state when it detects a change in the object's status (e.g., from VIRTUAL to MATERIALIZED). If the object remains VIRTUAL, it continues to reference the same state, avoiding unnecessary duplication and saving memory.

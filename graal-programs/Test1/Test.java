@@ -11,7 +11,6 @@ public class Test {
         a.foo(true);
       }
     }
-
   }
 }
 
@@ -19,7 +18,7 @@ class A {
   int x;
 
   int foo(boolean b) {
-    A a = new A();
+    A a = new A(); // BCI ~?
     a.x = 10;
 
     if (b) {
