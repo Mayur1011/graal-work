@@ -15,7 +15,7 @@ ON LOCAL MACHINE:
   - docker compose exec graal bash
 
 2. Select the JDK with JVMCI support using mx fetch-jdk
-  - mx fetch-jdk or mx -y fetch-jdk default
+  - mx -y fetch-jdk default
   - export JAVA_HOME=/home/ubuntu/.mx/jdks/labsjdk-ce-latest-jvmci-25.1-b17_amd64
   - export PATH=$JAVA_HOME/bin:$PATH
 
@@ -87,3 +87,25 @@ But because the compiler traces timelines (execution paths), it arrives at the l
 
 ObjectState.java:
 it does lazy allocation (CoW) of the object state. It only creates a new state when it detects a change in the object's status (e.g., from VIRTUAL to MATERIALIZED). If the object remains VIRTUAL, it continues to reference the same state, avoiding unnecessary duplication and saving memory.
+
+
+
+
+
+---------------------------------------------
+1. The shared framework
+- EffectsPhase.java — the generic fixed-point driver. It schedules or builds a CFG, walks blocks with a closure, collects effects, applies them, runs DCE, and iterates until nothing changes.
+- EffectsClosure.java — the analysis skeleton that stores aliases, per-block effects, loop merge effects, and applies the collected changes back to the graph in the right order.
+
+- EffectList.java — the base list of deferred graph effects. It is the low-level container used to record edits before applying them.
+- GraphEffectList.java — the concrete effect list for IR rewrites: add/delete nodes, replace values, update virtual mappings, kill branches, and track how many allocations/virtualizations changed.
+- EffectsBlockState.java — the common per-block state base class. It tracks whether a path is dead and which exception edges should be killed, and provides map-comparison helpers.
+
+2. Partial escape analysis itself
+- ObjectState.java — the state of one virtual object while analysis runs: its field/array entries, lock stack, whether it must stay virtual, and the materialized value if it escapes.
+- PartialEscapeBlockState.java — the per-basic-block state for PEA. It stores all ObjectStates indexed by virtual-object id and supports copy-on-write for efficiency.
+- PartialEscapeClosure.java — the core PEA traversal logic. It is the class that visits nodes, virtualizes allocations, materializes objects when needed, handles merges/loops, and records the effects. It also contains the Final specialization.
+- PartialEscapePhase.java — the phase entry point for running PEA. It controls iteration count, optional early read elimination, cleanup, graph-state staging, and which closure implementation to create.
+- FinalPartialEscapePhase.java — the “final” wrapper around PartialEscapePhase, used for the last PEA pass and to mark the FINAL_PARTIAL_ESCAPE stage in graph state.
+- VirtualizerToolImpl.java — the concrete implementation of VirtualizerTool. It is the bridge from node virtualization requests back into PartialEscapeBlockState and graph-effect recording.
+- VirtualUtil.java — helper utilities for PEA/read-elimination: graph matching, tracing, and the “assert obsolete nodes are really unreachable” debug check
