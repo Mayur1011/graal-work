@@ -50,6 +50,15 @@ mx vm -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI -XX:+UseJVMCICompiler -X
 
 
 
+
+
+
+
+
+
+
+
+
 DaCapo Testing: h2, luindex, lusearch, sunflow, pmd
 
 luindex:
