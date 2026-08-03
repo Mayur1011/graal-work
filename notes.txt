@@ -44,10 +44,51 @@ Use -Djdk.graal.LogFile=<path> to redirect Graal log output to a file.
 
 mx vm -XX:+UnlockExperimentalVMOptions -XX:+EnableJVMCI -XX:+UseJVMCICompiler -XX:-TieredCompilation -XX:CompileThreshold=1 -XX:CompileCommand=dontinline,A.foo -Dgraal.TrackNodeSourcePosition=true -Dgraal.PartialEscapeAnalysis=true -cp /graal-dev/graal-programs/Test1/ Test
 
+mx vm \
+  -XX:+UnlockExperimentalVMOptions \
+  -XX:+UnlockDiagnosticVMOptions \
+  -XX:+EnableJVMCI \
+  -XX:+UseJVMCICompiler \
+  -XX:-TieredCompilation \
+  -XX:CompileThreshold=1 \
+  -XX:CompileCommand=dontinline,A::foo \
+  -XX:+PrintCompilation \
+  -XX:+PrintInlining \
+  -Dgraal.TrackNodeSourcePosition=true \
+  -Dgraal.PartialEscapeAnalysis=true \
+  -cp /graal-dev/graal-programs/Test1/ \
+  Test
 
 
+Use `dontinline` only on your classes/methods (and repeat for each class).
 
+If your test class is `Test`:
+```bash
+-XX:CompileCommand=dontinline,Test.*
+```
 
+If you also have class `A`:
+```bash
+-XX:CompileCommand=dontinline,A.*
+```
+
+You can pass multiple:
+```bash
+-XX:CompileCommand=dontinline,Test.* \
+-XX:CompileCommand=dontinline,A.*
+```
+
+This blocks inlining of those methods into callers, but other internal/JDK methods can still inline as usual.
+
+---
+
+## Important detail
+
+If your test classes are in a package, use full class name pattern (package + class), e.g.:
+```bash
+-XX:CompileCommand=dontinline,my/package/Test.*
+```
+(or equivalent form accepted by your JVM build).
 
 
 
