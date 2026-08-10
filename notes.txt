@@ -1,3 +1,11 @@
+GOAL:
+1. find conservative escape/materialization points in Graal’s PEA,
+2. understand why they happen,
+3. connect those points to bytecode and control-flow context,
+4. and then use speculation to improve precision and stack allocation.
+
+
+
 STEPS:
 
 ON LOCAL MACHINE:
@@ -159,3 +167,19 @@ it does lazy allocation (CoW) of the object state. It only creates a new state w
 - FinalPartialEscapePhase.java — the “final” wrapper around PartialEscapePhase, used for the last PEA pass and to mark the FINAL_PARTIAL_ESCAPE stage in graph state.
 - VirtualizerToolImpl.java — the concrete implementation of VirtualizerTool. It is the bridge from node virtualization requests back into PartialEscapeBlockState and graph-effect recording.
 - VirtualUtil.java — helper utilities for PEA/read-elimination: graph matching, tracing, and the “assert obsolete nodes are really unreachable” debug check
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GOAL1 : discover and report all scenarios where the compiler materializes virtual objects (escape causes)
