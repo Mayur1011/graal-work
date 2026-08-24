@@ -1,6 +1,10 @@
 services:
   graal:
-    build: .
+    build:
+      context: .
+      args:
+        UID: ${UID:-1000}
+        GID: ${GID:-1000}
     image: graal-compiler
     container_name: graal-container
     tty: true

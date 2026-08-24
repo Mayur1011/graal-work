@@ -5,6 +5,12 @@ GOAL:
 4. and then use speculation to improve precision and stack allocation.
 
 
+--------
+whatever i am doing till now is to find compile-time analysis.
+
+
+
+
 
 STEPS:
 
@@ -169,17 +175,7 @@ it does lazy allocation (CoW) of the object state. It only creates a new state w
 - VirtualUtil.java — helper utilities for PEA/read-elimination: graph matching, tracing, and the “assert obsolete nodes are really unreachable” debug check
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-GOAL1 : discover and report all scenarios where the compiler materializes virtual objects (escape causes)
+=============================================
+graal PEA is compile-time, IR-based, control-flow-sensitive static analysis performed by the JIT compiler.
+graal is a jit compiler, so this analysis happens when the code in running, but it does not make it dynamic analysis.
+compiltion itself is dynamic, but PEA is static.
