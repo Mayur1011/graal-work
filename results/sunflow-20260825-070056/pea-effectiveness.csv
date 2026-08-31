@@ -1,0 +1,76 @@
+record;method;bci;node_class;candidate;virtualized;final_heap;classification
+site;org.sunflow.Benchmark.<init>(int, boolean, boolean, boolean, int);181;NewArrayNode;true;false;false;not_virtualized
+site;org.sunflow.Benchmark.<init>(int, boolean, boolean, boolean, int);52;NewArrayNode;true;true;true;finally_materialized
+site;org.sunflow.Benchmark.<init>(int, boolean, boolean, boolean, int);93;NewArrayNode;true;true;true;finally_materialized
+site;org.sunflow.Benchmark.kernelEnd();168;NewArrayNode;true;true;true;finally_materialized
+site;org.sunflow.core.Instance.transformNormalObjectToWorld(Vector3);7;NewInstanceNode;true;true;false;scalar_replaced
+site;org.sunflow.core.Ray.getDirection();0;NewInstanceNode;true;true;true;finally_materialized
+site;org.sunflow.core.Ray.transform(Matrix4);6;NewInstanceNode;true;true;true;finally_materialized
+site;org.sunflow.core.ShadingState.createReflectionBounceState(ShadingState, Ray, int);0;NewInstanceNode;true;true;true;finally_materialized
+site;org.sunflow.core.ShadingState.createRefractionBounceState(ShadingState, Ray, int);0;NewInstanceNode;true;true;true;finally_materialized
+site;org.sunflow.core.ShadingState.createState(IntersectionState, float, float, Ray, int, LightServer);0;NewInstanceNode;true;true;true;finally_materialized
+site;org.sunflow.core.ShadingState.init();1;NewInstanceNode;true;true;true;finally_materialized
+site;org.sunflow.core.ShadingState.init();12;NewInstanceNode;true;true;true;finally_materialized
+site;org.sunflow.core.ShadingState.init();23;NewInstanceNode;true;true;true;finally_materialized
+site;org.sunflow.core.ShadingState.init();34;NewInstanceNode;true;true;true;finally_materialized
+site;org.sunflow.core.ShadingState.iterator();0;NewInstanceNode;true;true;false;scalar_replaced
+site;org.sunflow.core.accel.KDTree$BuildTask.<init>(int, KDTree$BuildTask);9;NewArrayNode;true;false;false;not_virtualized
+site;org.sunflow.core.accel.KDTree.buildTree(float, float, float, float, float, float, KDTree$BuildTask, int, IntArray, int, IntArray, KDTree$BuildStats);113;NewArrayNode;true;true;true;finally_materialized
+site;org.sunflow.core.accel.KDTree.buildTree(float, float, float, float, float, float, KDTree$BuildTask, int, IntArray, int, IntArray, KDTree$BuildStats);142;NewArrayNode;true;true;true;finally_materialized
+site;org.sunflow.core.accel.KDTree.buildTree(float, float, float, float, float, float, KDTree$BuildTask, int, IntArray, int, IntArray, KDTree$BuildStats);171;NewArrayNode;true;true;true;finally_materialized
+site;org.sunflow.core.accel.KDTree.buildTree(float, float, float, float, float, float, KDTree$BuildTask, int, IntArray, int, IntArray, KDTree$BuildStats);200;NewArrayNode;true;true;true;finally_materialized
+site;org.sunflow.core.accel.KDTree.buildTree(float, float, float, float, float, float, KDTree$BuildTask, int, IntArray, int, IntArray, KDTree$BuildStats);218;NewArrayNode;true;true;true;finally_materialized
+site;org.sunflow.core.accel.KDTree.buildTree(float, float, float, float, float, float, KDTree$BuildTask, int, IntArray, int, IntArray, KDTree$BuildStats);825;NewInstanceNode;true;true;true;finally_materialized
+site;org.sunflow.core.accel.KDTree.buildTree(float, float, float, float, float, float, KDTree$BuildTask, int, IntArray, int, IntArray, KDTree$BuildStats);838;NewInstanceNode;true;true;true;finally_materialized
+site;org.sunflow.core.accel.KDTree.buildTree(float, float, float, float, float, float, KDTree$BuildTask, int, IntArray, int, IntArray, KDTree$BuildStats);96;NewArrayNode;true;true;true;finally_materialized
+site;org.sunflow.core.accel.KDTree.radix12(long[], int);3;NewArrayNode;true;false;false;not_virtualized
+site;org.sunflow.core.accel.KDTree.radix12(long[], int);7;NewArrayNode;true;false;false;not_virtualized
+site;org.sunflow.core.camera.PinholeLens.getRay(float, float, int, int, double, double, double);43;NewInstanceNode;true;true;true;finally_materialized
+site;org.sunflow.core.gi.InstantGI.getIrradiance(ShadingState, Color);77;NewInstanceNode;true;true;true;finally_materialized
+site;org.sunflow.core.light.TriangleMeshLight$TriangleLight.getSamples(ShadingState);1008;NewInstanceNode;true;true;true;finally_materialized
+site;org.sunflow.core.light.TriangleMeshLight$TriangleLight.getSamples(ShadingState);1035;NewInstanceNode;true;true;true;finally_materialized
+site;org.sunflow.core.light.TriangleMeshLight$TriangleLight.getSamples(ShadingState);126;NewInstanceNode;true;true;true;finally_materialized
+site;org.sunflow.core.light.TriangleMeshLight$TriangleLight.getSamples(ShadingState);199;NewInstanceNode;true;true;false;scalar_replaced
+site;org.sunflow.core.light.TriangleMeshLight$TriangleLight.getSamples(ShadingState);296;NewInstanceNode;true;true;false;scalar_replaced
+site;org.sunflow.core.light.TriangleMeshLight$TriangleLight.getSamples(ShadingState);339;NewInstanceNode;true;true;false;scalar_replaced
+site;org.sunflow.core.light.TriangleMeshLight$TriangleLight.getSamples(ShadingState);382;NewInstanceNode;true;true;false;scalar_replaced
+site;org.sunflow.core.light.TriangleMeshLight$TriangleLight.getSamples(ShadingState);43;NewInstanceNode;true;true;false;scalar_replaced
+site;org.sunflow.core.light.TriangleMeshLight$TriangleLight.getSamples(ShadingState);822;NewInstanceNode;true;true;false;scalar_replaced
+site;org.sunflow.core.light.TriangleMeshLight$TriangleLight.getSamples(ShadingState);894;NewInstanceNode;true;true;false;scalar_replaced
+site;org.sunflow.core.light.TriangleMeshLight$TriangleLight.getSamples(ShadingState);92;NewInstanceNode;true;true;false;scalar_replaced
+site;org.sunflow.core.primitive.Sphere.prepareShadingState(ShadingState);135;NewInstanceNode;true;true;false;scalar_replaced
+site;org.sunflow.core.primitive.TriangleMesh.getPoint(int);4;NewInstanceNode;true;true;true;finally_materialized
+site;org.sunflow.core.primitive.TriangleMesh.prepareShadingState(ShadingState);864;NewInstanceNode;true;true;false;scalar_replaced
+site;org.sunflow.core.primitive.TriangleMesh.prepareShadingState(ShadingState);880;NewInstanceNode;true;true;false;scalar_replaced
+site;org.sunflow.core.primitive.TriangleMesh.prepareShadingState(ShadingState);932;NewInstanceNode;true;true;false;scalar_replaced
+site;org.sunflow.core.renderer.BucketRenderer.renderBucket(Display, int, int, int, IntersectionState);193;NewArrayNode;true;false;false;not_virtualized
+site;org.sunflow.core.renderer.BucketRenderer.renderBucket(Display, int, int, int, IntersectionState);382;NewInstanceNode;true;true;true;finally_materialized
+site;org.sunflow.core.renderer.BucketRenderer.renderBucket(Display, int, int, int, IntersectionState);69;NewArrayNode;true;false;false;not_virtualized
+site;org.sunflow.core.shader.GlassShader.getRadiance(ShadingState);11;NewInstanceNode;true;true;true;finally_materialized
+site;org.sunflow.core.shader.GlassShader.getRadiance(ShadingState);19;NewInstanceNode;true;true;false;scalar_replaced
+site;org.sunflow.core.shader.GlassShader.getRadiance(ShadingState);452;NewInstanceNode;true;true;true;finally_materialized
+site;org.sunflow.core.shader.GlassShader.getRadiance(ShadingState);494;NewInstanceNode;true;true;true;finally_materialized
+site;org.sunflow.core.shader.MirrorShader.getRadiance(ShadingState);108;NewInstanceNode;true;true;true;finally_materialized
+site;org.sunflow.core.shader.MirrorShader.getRadiance(ShadingState);24;NewInstanceNode;true;true;false;scalar_replaced
+site;org.sunflow.core.tesselatable.BezierMesh.bernstein(float);1;NewArrayNode;true;true;true;finally_materialized
+site;org.sunflow.core.tesselatable.BezierMesh.bernsteinDeriv(float);10;NewArrayNode;true;true;true;finally_materialized
+site;org.sunflow.image.Color.black();0;NewInstanceNode;true;true;true;finally_materialized
+site;org.sunflow.image.Color.blend(Color, Color, Color);3;NewInstanceNode;true;true;true;finally_materialized
+site;org.sunflow.image.Color.copy();0;NewInstanceNode;true;true;true;finally_materialized
+site;org.sunflow.image.Color.mul(float, Color);2;NewInstanceNode;true;true;true;finally_materialized
+site;org.sunflow.image.Color.white();0;NewInstanceNode;true;true;true;finally_materialized
+site;org.sunflow.math.Matrix4.transformP(Point3);0;NewInstanceNode;true;true;true;finally_materialized
+site;org.sunflow.math.Matrix4.transformTransposeV(Vector3);0;NewInstanceNode;true;true;true;finally_materialized
+site;org.sunflow.math.Matrix4.transformV(Vector3);0;NewInstanceNode;true;true;true;finally_materialized
+site;org.sunflow.math.OrthoNormalBasis.<init>();16;NewInstanceNode;true;true;true;finally_materialized
+site;org.sunflow.math.OrthoNormalBasis.<init>();27;NewInstanceNode;true;true;true;finally_materialized
+site;org.sunflow.math.OrthoNormalBasis.<init>();5;NewInstanceNode;true;true;true;finally_materialized
+site;org.sunflow.math.OrthoNormalBasis.makeFromW(Vector3);0;NewInstanceNode;true;true;true;finally_materialized
+site;org.sunflow.math.OrthoNormalBasis.makeFromWV(Vector3, Vector3);0;NewInstanceNode;true;true;true;finally_materialized
+site;org.sunflow.math.Point3.normal(Point3, Point3, Point3);102;NewInstanceNode;true;true;true;finally_materialized
+site;org.sunflow.math.Solvers.solveQuadric(double, double, double);79;NewArrayNode;true;true;true;finally_materialized
+site;org.sunflow.util.IntArray.add(int);28;NewArrayNode;true;false;false;not_virtualized
+summary;total_candidates;71
+summary;not_virtualized;7
+summary;scalar_replaced;16
+summary;finally_materialized;48

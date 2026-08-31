@@ -1,0 +1,5 @@
+dynamic counters;PEA outcomes;candidate executions;0
+dynamic counters;PEA outcomes;final materialized;0
+dynamic counters;PEA outcomes;initially virtualized;0
+dynamic counters;number of allocations;bytes;2
+dynamic counters;number of bytes allocated;bytes;120

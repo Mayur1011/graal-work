@@ -1,0 +1,21 @@
+record;method;bci;node_class;candidate;virtualized;final_heap;classification
+site;org.apache.fop.fo.FOText.getBidiLevels(int, int);31;NewArrayNode;true;false;false;not_virtualized
+site;org.apache.fop.fo.FObj.getChildNodes();7;VirtualInstanceNode;true;true;true;finally_materialized
+site;org.apache.fop.fo.properties.CommonFont.getFontFamily();14;NewArrayNode;true;false;false;not_virtualized
+site;org.apache.fop.fo.properties.PropertyCache.fetch(Object);158;NewInstanceNode;true;false;false;not_virtualized
+site;org.apache.fop.fo.properties.PropertyCache.fetch(Object);46;NewInstanceNode;true;false;false;not_virtualized
+site;org.apache.fop.fonts.FontInfo.fontLookup(String[], String, int);142;NewArrayNode;true;false;false;not_virtualized
+site;org.apache.fop.fonts.FontSelector.selectFontForCharactersInText(CharSequence, int, int, FOText, PercentBaseContext);31;NewArrayNode;true;false;false;not_virtualized
+site;org.apache.fop.fonts.FontSelector.selectFontForCharactersInText(CharSequence, int, int, FOText, PercentBaseContext);38;NewArrayNode;true;false;false;not_virtualized
+site;org.apache.fop.layoutmgr.BreakingAlgorithm.addNode(int, BreakingAlgorithm$KnuthNode);23;NewArrayNode;true;false;false;not_virtualized
+site;org.apache.fop.layoutmgr.inline.TextLayoutManager$TextAreaBuilder.initWord(int);14;NewArrayNode;true;false;false;not_virtualized
+site;org.apache.fop.layoutmgr.inline.TextLayoutManager$TextAreaBuilder.initWord(int);26;NewArrayNode;true;false;false;not_virtualized
+site;org.apache.fop.pdf.PDFStream.add(StringBuffer);16;NewArrayNode;true;false;false;not_virtualized
+site;org.apache.fop.pdf.PDFStream.add(StringBuffer);56;NewArrayNode;true;false;false;not_virtualized
+site;org.apache.xerces.util.SymbolTable$Entry.<init>(char[], int, int, SymbolTable$Entry);6;NewArrayNode;true;false;false;not_virtualized
+site;org.apache.xerces.util.SymbolTable.rehash();18;NewArrayNode;true;false;false;not_virtualized
+site;org.apache.xml.serializer.ToStream.writeAttrString(Writer, String, String);23;NewArrayNode;true;false;false;not_virtualized
+summary;total_candidates;16
+summary;not_virtualized;15
+summary;scalar_replaced;0
+summary;finally_materialized;1

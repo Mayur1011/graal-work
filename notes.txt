@@ -10,9 +10,207 @@ whatever i am doing till now is to find compile-time analysis.
 
 
 
+MTP WORK
+i will be using two separate measurements for how many object are materialized
+1. Compiler-time PEA decisions: count PEA transformations while Graal compiles.
+    i have added this two in PartialEscapeClosure.java
+    public static final CounterKey COUNTER_PEA_VIRTUALIZED_OBJECTS =
+          DebugContext.counter("PEA_VirtualizedObjects");
+    public static final CounterKey COUNTER_PEA_MATERIALIZED_OBJECTS =
+          DebugContext.counter("PEA_MaterializedObjects");
+
+2. Runtime-weighted PEA behavior: insert DynamicCounterNodes into the final machine code
+      Graal already has exactly the mechanism you need: graal/compiler/src/jdk.graal.compiler/src/jdk/graal/compiler/nodes/debug/DynamicCounterNode.java. It becomes a counter increment in compiled code.
+
+notes related to testing scripts
+using GenericDynamicCounters=true, so the runtime totals include all code executed from VM startup to shutdown—including DaCapo setup and teardown  [-Djdk.graal.GenericDynamicCounters=true]
+GenericDynamicCounters=true counted runtime PEA activity from JVM startup until shutdown:
+  - DaCapo harness startup
+  - warm-up iterations
+  - FOP execution
+  - teardown/shutdown work
+
+BenchmarkDynamicCounters=... clears the runtime counters at DaCapo’s starting marker and dumps at PASSED in. With -n 5, your pea-runtime.csv
+  normally contains the final matched DaCapo iteration.
+
+
+
+  The runner configures:
+
+  -Djdk.graal.BenchmarkDynamicCounters=
+      out,PEA-MEASUREMENT-START,PEA-MEASUREMENT-END
+
+  Graal wraps System.out with a pattern-detecting stream.
+
+  When it sees the start marker:
+
+  1. It records the start time.
+  2. It reads the current JVMCI counter array.
+  3. It saves those values as the baseline.
+  4. It begins the measurement.
+
+  When it sees the end marker and the following newline:
+
+  1. It reads the counter array again.
+  2. It subtracts the baseline values.
+  3. It writes only the interval delta to pea-runtime.csv.
+
+  Thus, compilation and warmup executions before the marker do not enter the runtime result.
+
+  The synchronous compilation options help ensure the methods are compiled before measurement:
+
+  -XX:-TieredCompilation
+  -XX:-BackgroundCompilation
+  -XX:CompileThreshold=100
+
+
+
+
+How do it get the pea-runtime.csv?
+    Graal's existing BenchmarkCounters infrastructure writes it.
+    in my running script i provide the destination: -Djdk.graal.BenchmarkCountersFile="$RESULTS_DIR/pea-runtime.csv"
+
+  The full flow is:
+
+  PEA instrumentation
+      ↓
+  DynamicCounterNode inserted into Graal IR
+      ↓
+  DynamicCounterNode lowered into machine-code counter increment
+      ↓
+  Generated application code executes
+      ↓
+  JVMCI counter slots are incremented
+      ↓
+  BenchmarkCounters reads the counter slots
+      ↓
+  BenchmarkCounters writes pea-runtime.csv
+
+  Three kinds of DynamicCounterNode are inserted.
+
+  ### Candidate executions
+
+  Inserted by PEAEffectivenessReporter.recordCandidates():
+
+  DynamicCounterNode.addCounterBefore(
+      "PEA outcomes",
+      "candidate executions",
+      1,
+      false,
+      fixed
+  );
+
+  ### Initially virtualized
+
+  Inserted by VirtualizerToolImpl.replaceWithVirtual():
+
+  new DynamicCounterNode(
+      "PEA outcomes",
+      "initially virtualized",
+      ConstantNode.forLong(1, graph),
+      false
+  );
+
+  ### Final materialization
+
+  Inserted during CommitAllocationNode lowering:
+
+  DynamicCounterNode.addCounterBefore(
+      "PEA outcomes",
+      "final materialized",
+      peaFinalMaterializedObjects,
+      false,
+      commit
+  );
+
+  At compilation time, DynamicCounterNode.generate() asks the backend to emit a benchmark-counter increment:
+
+  lirGen.createBenchmarkCounter(...);
+
+  Therefore, the counters become instructions in generated machine code.
+
+  ### Measurement window
+
+  The test prints:
+
+  PEA-MEASUREMENT-START
+
+  and later:
+
+  PEA-MEASUREMENT-END
+
+  The runner configures:
+
+  -Djdk.graal.BenchmarkDynamicCounters="out,PEA-MEASUREMENT-START,PEA-MEASUREMENT-END"
+
+  When BenchmarkCounters sees the start marker, it saves the current counters as a baseline.
+
+  When it sees the end marker, it:
+
+  1. Reads the current JVMCI counters.
+  2. Subtracts the baseline.
+  3. Writes the differences to pea-runtime.csv.
+
+  So:
+
+  pea-runtime.csv
+
+  is written by:
+
+  jdk.graal.compiler.hotspot.debug.BenchmarkCounters
+
+  The runner only specifies the filename and later reads the file.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 STEPS:
+
+to install any library as root: docker exec -it -u root 39dad2b6a544 /bin/bash
 
 ON LOCAL MACHINE:
 1. Clone the graal repository in your local machine
@@ -28,7 +226,7 @@ ON LOCAL MACHINE:
   - docker compose up -d
   - docker compose exec graal bash
 
-2. Select the JDK with JVMCI support using mx fetch-jdk
+2. Select the JDK with JVMCI support using mx fetch-jdk. run this from graal/compiler/
   - mx -y fetch-jdk default
   - export JAVA_HOME=/home/ubuntu/.mx/jdks/labsjdk-ce-latest-jvmci-25.1-b17_amd64
   - export PATH=$JAVA_HOME/bin:$PATH
@@ -110,6 +308,9 @@ If your test classes are in a package, use full class name pattern (package + cl
 
 
 
+
+
+// how to do Dacapo testing
 
 
 

@@ -1,0 +1,168 @@
+record;method;bci;node_class;candidate;virtualized;final_heap;classification
+site;org.h2.command.CommandContainer.getDependencies();0;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.command.Parser.readAnd(Expression);23;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.command.Parser.readAnd(Expression);34;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.command.Parser.readAnd(Expression);71;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.command.Parser.readComparison(Expression, int, boolean);115;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.command.Parser.readCondition();44;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.command.Parser.readCondition();77;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.command.Parser.readExpressionPart2(Expression);29;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.command.Parser.readExpressionPart2(Expression);40;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.command.Parser.readExpressionPart2(Expression);82;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.command.Parser.readFactor();14;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.command.Parser.readSum();14;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.command.Parser.readSum();42;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.command.Parser.readTermWithIdentifier();58;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.command.Parser.readTermWithIdentifier(String, boolean);1166;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.command.Parser.readTermWithoutIdentifier();1284;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.command.Tokenizer.parseParameterIndex(String, int, int, ArrayList);96;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.command.Tokenizer.readIdentifierOrKeyword(String, int, ArrayList, int, int);6;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.command.Tokenizer.readIdentifierOrKeyword(String, int, ArrayList, int, int);71;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.command.Tokenizer.tokenize(String, boolean, BitSet);0;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.command.Tokenizer.tokenize(String, boolean, BitSet);1392;NewInstanceNode;true;true;false;scalar_replaced
+site;org.h2.command.Tokenizer.tokenize(String, boolean, BitSet);1427;NewInstanceNode;true;true;false;scalar_replaced
+site;org.h2.command.Tokenizer.tokenize(String, boolean, BitSet);1463;NewInstanceNode;true;true;false;scalar_replaced
+site;org.h2.command.Tokenizer.tokenize(String, boolean, BitSet);2545;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.command.Tokenizer.tokenize(String, boolean, BitSet);773;NewInstanceNode;true;true;false;scalar_replaced
+site;org.h2.command.Tokenizer.tokenize(String, boolean, BitSet);789;NewInstanceNode;true;true;false;scalar_replaced
+site;org.h2.command.Tokenizer.tokenize(String, boolean, BitSet);831;NewInstanceNode;true;true;false;scalar_replaced
+site;org.h2.command.Tokenizer.tokenize(String, boolean, BitSet);847;NewInstanceNode;true;true;false;scalar_replaced
+site;org.h2.command.Tokenizer.tokenize(String, boolean, BitSet);863;NewInstanceNode;true;true;false;scalar_replaced
+site;org.h2.command.Tokenizer.tokenize(String, boolean, BitSet);912;NewInstanceNode;true;true;false;scalar_replaced
+site;org.h2.command.ddl.Analyze$SelectivityData.<init>();7;NewArrayNode;true;true;true;finally_materialized
+site;org.h2.command.ddl.Analyze$SelectivityData.rehash();17;NewArrayNode;true;false;false;not_virtualized
+site;org.h2.command.ddl.Analyze.analyzeTable(SessionLocal, Table, int, boolean);160;NewArrayNode;true;false;false;not_virtualized
+site;org.h2.command.ddl.Analyze.analyzeTable(SessionLocal, Table, int, boolean);200;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.command.query.AllColumnsForPlan.add(Column);19;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.command.query.AllColumnsForPlan.get(Table);8;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.command.query.Query.getOffsetFetch(long);179;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.command.query.Query.getParameterValues();19;NewArrayNode;true;false;false;not_virtualized
+site;org.h2.command.query.Select$LazyResultQueryFlat.fetchNextRow();70;NewArrayNode;true;false;false;not_virtualized
+site;org.h2.command.query.Select.constructGroupResultRow(Value[], int);1;NewArrayNode;true;false;false;not_virtualized
+site;org.h2.command.query.Select.createLocalResult(LocalResult);8;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.command.query.Select.queryFlat(int, ResultTarget, long, long, boolean, boolean);36;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.command.query.SelectGroups$Grouped.reset();5;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.command.query.SelectGroups.<init>(SessionLocal, ArrayList);16;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.command.query.SelectGroups.<init>(SessionLocal, ArrayList);27;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.command.query.SelectGroups.<init>(SessionLocal, ArrayList);5;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.command.query.SelectGroups.createRow();17;NewArrayNode;true;false;false;not_virtualized
+site;org.h2.command.query.SelectGroups.getInstance(SessionLocal, ArrayList, boolean, int[]);17;NewInstanceNode;true;true;false;scalar_replaced
+site;org.h2.command.query.SelectGroups.getInstance(SessionLocal, ArrayList, boolean, int[]);4;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.engine.SessionLocal.getTrace();19;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.engine.SessionLocal.markTableForAnalyze(Table);8;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.engine.SessionLocal.setSavepoint();0;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.engine.SessionLocal.startStatementWithinTransaction(Command);9;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.engine.SessionLocal.unlockAll();15;NewArrayNode;true;true;false;scalar_replaced
+site;org.h2.engine.SettingsBase.get(String, String);18;NewInstanceNode;true;true;false;scalar_replaced
+site;org.h2.expression.ExpressionVisitor.getColumnsVisitor(AllColumnsForPlan);0;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.expression.ExpressionVisitor.getDependenciesVisitor(HashSet);0;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.expression.ExpressionVisitor.getMaxModificationIdVisitor();0;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.expression.ExpressionVisitor.getMaxModificationIdVisitor();11;NewArrayNode;true;true;true;finally_materialized
+site;org.h2.expression.ValueExpression.get(Value);28;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.expression.aggregate.Aggregate.createAggregateData();242;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.expression.aggregate.Aggregate.createAggregateData();483;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.expression.aggregate.AggregateDataCollecting.add(SessionLocal, Value);63;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.index.IndexCursor.setIndex(Index);24;NewArrayNode;true;false;false;not_virtualized
+site;org.h2.jdbc.JdbcPreparedStatement.executeQuery();133;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.jdbc.JdbcResultSet.getColumnIndex(String);143;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.jdbc.JdbcResultSet.getColumnIndex(String);31;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.message.DbException.buildMessageForException(JdbcException);7;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.message.DbException.get(int, String);2;NewArrayNode;true;true;true;finally_materialized
+site;org.h2.message.DbException.get(int, String[]);0;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.message.DbException.get(int, Throwable, String[]);0;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.message.DbException.getJdbcSQLException(String, String, String, int, Throwable, String);100;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.message.DbException.getJdbcSQLException(String, String, String, int, Throwable, String);196;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.message.DbException.quote(String);5;NewInstanceNode;true;true;false;scalar_replaced
+site;org.h2.message.TraceSystem.getTrace(String);0;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.mvstore.Cursor.hasNext();148;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.mvstore.CursorPos.traverseDown(Page, Object);24;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.mvstore.CursorPos.traverseDown(Page, Object);44;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.mvstore.DataUtils.formatMessage(int, String, Object[]);97;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.mvstore.DataUtils.getFromMap(String, String);73;NewInstanceNode;true;true;false;scalar_replaced
+site;org.h2.mvstore.DataUtils.newMVStoreException(int, String, Object[]);0;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.mvstore.MVMap.cursor(RootReference, Object, Object, boolean);0;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.mvstore.MVMap.flushAppendBuffer(RootReference, boolean);17;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.mvstore.MVMap.flushAppendBuffer(RootReference, boolean);595;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.mvstore.MVMap.flushAppendBuffer(RootReference, boolean);608;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.mvstore.MVMap.getMapKey(int);0;NewInstanceNode;true;true;false;scalar_replaced
+site;org.h2.mvstore.MVMap.operate(Object, Object, MVMap$DecisionMaker);0;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.mvstore.MVMap.operate(Object, Object, MVMap$DecisionMaker);637;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.mvstore.MVMap.operate(Object, Object, MVMap$DecisionMaker);650;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.mvstore.Page$Leaf.getAppendCursorPos(CursorPos);5;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.mvstore.Page$Leaf.getPrependCursorPos(CursorPos);0;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.mvstore.Page$NonLeaf.getAppendCursorPos(CursorPos);12;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.mvstore.Page$NonLeaf.getPrependCursorPos(CursorPos);7;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.mvstore.Page$NonLeaf.insertNode(int, Object, Page);44;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.mvstore.Page$NonLeaf.setChild(int, Page);82;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.mvstore.Page.createLeaf(MVMap, Object[], Object[], int);18;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.mvstore.Page.createNode(MVMap, Object[], Page$PageReference[], long, int);18;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.mvstore.Page.createRefStorage(int);1;NewArrayNode;true;true;true;finally_materialized
+site;org.h2.mvstore.RootReference.tryLock(int);8;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.mvstore.RootReference.updatePageAndLockedStatus(Page, boolean, int);8;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.mvstore.RootReference.updateRootPage(Page, long);8;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.mvstore.db.MVPrimaryIndex.find(SessionLocal, Long, Long);51;NewInstanceNode;true;true;false;scalar_replaced
+site;org.h2.mvstore.db.MVSecondaryIndex.find(SessionLocal, SearchRow, boolean, SearchRow);22;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.mvstore.db.MVTable.convertException(MVStoreException, boolean);48;NewArrayNode;true;true;true;finally_materialized
+site;org.h2.mvstore.db.MVTable.rebuildIndexBuffered(SessionLocal, Index);45;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.mvstore.db.MVTable.rebuildIndexBuffered(SessionLocal, Index);56;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.mvstore.db.RowDataType.createStorage(int);1;NewArrayNode;true;true;true;finally_materialized
+site;org.h2.mvstore.tx.Record$Type.createStorage(int);1;NewArrayNode;true;true;true;finally_materialized
+site;org.h2.mvstore.tx.Transaction.<init>(TransactionStore, int, long, int, String, long, int, int, IsolationLevel, TransactionStore$RollbackListener);31;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.mvstore.tx.Transaction.<init>(TransactionStore, int, long, int, String, long, int, int, IsolationLevel, TransactionStore$RollbackListener);5;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.mvstore.tx.Transaction.markStatementStart(HashSet);98;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.mvstore.tx.Transaction.openMapX(MVMap);30;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.mvstore.tx.TransactionMap$$Lambda/0x000000005358b500.apply(Object, Object);0;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.mvstore.tx.TransactionMap$TMIterator.toElement(Object, Object);7;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.mvstore.tx.TransactionMap.<init>(Transaction, MVMap);15;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.mvstore.tx.TransactionMap.<init>(Transaction, MVMap);31;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.mvstore.tx.TransactionMap.<init>(Transaction, MVMap);60;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.mvstore.tx.TransactionMap.<init>(Transaction, MVMap);75;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.mvstore.tx.TransactionMap.chooseIterator(Object, Object, boolean, boolean);48;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.mvstore.tx.TransactionMap.chooseIterator(Object, Object, boolean, boolean);69;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.mvstore.tx.TransactionMap.chooseIterator(Object, Object, boolean, boolean);83;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.mvstore.tx.TransactionMap.keyIteratorUncommitted(Object, Object);0;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.mvstore.tx.TransactionStore.collectUndoLogRootReferences();15;NewArrayNode;true;false;false;not_virtualized
+site;org.h2.mvstore.tx.TransactionStore.commit(Transaction, boolean);62;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.mvstore.tx.TransactionStore.getOperationId(int, long);18;NewArrayNode;true;true;false;scalar_replaced
+site;org.h2.mvstore.tx.TransactionStore.getOperationId(int, long);53;NewArrayNode;true;true;false;scalar_replaced
+site;org.h2.mvstore.tx.TransactionStore.registerTransaction(int, int, String, long, int, int, IsolationLevel, TransactionStore$RollbackListener);133;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.mvstore.tx.TransactionStore.rollbackTo(Transaction, long, long);15;NewInstanceNode;true;true;false;scalar_replaced
+site;org.h2.mvstore.tx.TxDecisionMaker$RepeatableReadLockDecisionMaker.logAndDecideToPut(VersionedValue, Object);44;NewArrayNode;true;true;true;finally_materialized
+site;org.h2.mvstore.tx.TxDecisionMaker.logAndDecideToPut(VersionedValue, Object);5;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.mvstore.tx.VersionedValueType.createStorage(int);1;NewArrayNode;true;false;false;not_virtualized
+site;org.h2.mvstore.tx.VersionedValueUncommitted.getInstance(long, Object, Object);0;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.mvstore.type.LongDataType.createStorage(int);11;NewArrayNode;true;true;true;finally_materialized
+site;org.h2.result.DefaultRow.<init>(int);6;NewArrayNode;true;false;false;not_virtualized
+site;org.h2.result.LocalResult.addRowForTable(Row);8;NewArrayNode;true;false;false;not_virtualized
+site;org.h2.result.LocalResult.forTable(SessionLocal, Table);11;NewArrayNode;true;false;false;not_virtualized
+site;org.h2.result.LocalResult.forTable(SessionLocal, Table);35;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.result.LocalResult.forTable(SessionLocal, Table);69;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.result.LocalResult.forTable(SessionLocal, Table);98;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.result.ResultWithGeneratedKeys.of(long);0;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.result.RowFactory$DefaultRowFactory.createRow();28;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.result.RowFactory$DefaultRowFactory.createRow();46;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.result.RowFactory$DefaultRowFactory.createRow();7;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.result.RowFactory$DefaultRowFactory.createRow(Value[], int);0;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.result.Sparse.<init>(int, int, int[]);2;NewArrayNode;true;false;false;not_virtualized
+site;org.h2.table.Table.getTemplateRow();6;NewArrayNode;true;false;false;not_virtualized
+site;org.h2.table.TableFilter.getSystemColumns();19;NewArrayNode;true;true;true;finally_materialized
+site;org.h2.table.TableFilter.getSystemColumns();24;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.table.TableFilter.getSystemColumns();44;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.util.LegacyDateTimeUtils.toTimestamp(CastDataProvider, TimeZone, Value);62;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.util.StringUtils.toUpperEnglish(String);69;NewArrayNode;true;true;true;finally_materialized
+site;org.h2.util.Utils.newSmallArrayList();0;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.value.ValueBigint.get(long);21;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.value.ValueChar.get(String);0;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.value.ValueDouble.get(double);31;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.value.ValueInteger.get(int);39;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.value.ValueNumeric.get(BigDecimal);28;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.value.ValueSmallint.get(short);0;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.value.ValueStringBase.getBigDecimal();0;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.value.ValueTimestamp.fromDateValueAndNanos(long, long);0;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.value.ValueTimestampTimeZone.fromDateValueAndNanos(long, long, int);0;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.value.ValueTimestampTimeZone.getString();1;NewInstanceNode;true;true;true;finally_materialized
+site;org.h2.value.ValueVarchar.get(String, CastDataProvider);33;NewInstanceNode;true;true;true;finally_materialized
+summary;total_candidates;163
+summary;not_virtualized;14
+summary;scalar_replaced;19
+summary;finally_materialized;130

@@ -1,0 +1,75 @@
+record;method;bci;node_class;candidate;virtualized;final_heap;classification
+site;org.apache.batik.anim.dom.AbstractElement.createAttributes();0;NewInstanceNode;true;true;true;finally_materialized
+site;org.apache.batik.anim.dom.SVGOMDocument.createAttributeNS(String, String);17;NewInstanceNode;true;true;true;finally_materialized
+site;org.apache.batik.anim.dom.SVGOMDocument.createAttributeNS(String, String);4;NewInstanceNode;true;true;true;finally_materialized
+site;org.apache.batik.anim.dom.SVGOMDocument.createTextNode(String);0;NewInstanceNode;true;true;true;finally_materialized
+site;org.apache.batik.dom.AbstractElement$NamedNodeHashMap.<init>(AbstractElement);11;NewArrayNode;true;true;true;finally_materialized
+site;org.apache.fop.area.inline.TextArea.addSpace(char, int, boolean, int, int);0;NewInstanceNode;true;true;true;finally_materialized
+site;org.apache.fop.area.inline.TextArea.addWord(String, int, int[], int[], int[][], int, boolean);11;NewInstanceNode;true;true;true;finally_materialized
+site;org.apache.fop.complexscripts.bidi.DelimitedTextRange.append(CharIterator, FONode);48;NewInstanceNode;true;true;true;finally_materialized
+site;org.apache.fop.fo.FOText.charIterator();0;NewInstanceNode;true;true;true;finally_materialized
+site;org.apache.fop.fo.FOText.getBidiLevels(int, int);31;NewArrayNode;true;false;false;not_virtualized
+site;org.apache.fop.fo.FObj.getChildNodes();7;NewInstanceNode;true;true;true;finally_materialized
+site;org.apache.fop.fo.XMLWhiteSpaceHandler.handleWhiteSpace();0;NewInstanceNode;true;true;false;scalar_replaced
+site;org.apache.fop.fo.flow.Character$FOCharIterator.nextChar();20;NewInstanceNode;true;true;false;scalar_replaced
+site;org.apache.fop.fo.flow.Character.charIterator();0;NewInstanceNode;true;true;true;finally_materialized
+site;org.apache.fop.fo.properties.CommonFont.getFontFamily();14;NewArrayNode;true;false;false;not_virtualized
+site;org.apache.fop.fo.properties.CommonTextDecoration.calcTextDecoration(PropertyList);144;NewInstanceNode;true;true;true;finally_materialized
+site;org.apache.fop.fo.properties.CondLengthProperty$Maker.makeNewProperty();0;NewInstanceNode;true;true;true;finally_materialized
+site;org.apache.fop.fo.properties.EnumNumber.getInstance(Property);3;NewInstanceNode;true;true;true;finally_materialized
+site;org.apache.fop.fo.properties.LengthProperty$Maker.convertProperty(Property, PropertyList, FObj);7;NewInstanceNode;true;true;true;finally_materialized
+site;org.apache.fop.fo.properties.SpaceProperty$Maker.makeNewProperty();0;NewInstanceNode;true;true;true;finally_materialized
+site;org.apache.fop.fonts.FontInfo.createFontKey(String, String, int);0;NewInstanceNode;true;true;true;finally_materialized
+site;org.apache.fop.fonts.FontInfo.fontLookup(String[], String, int, boolean);0;NewInstanceNode;true;true;true;finally_materialized
+site;org.apache.fop.fonts.FontInfo.getFontInstance(FontTriplet, int);18;NewInstanceNode;true;true;true;finally_materialized
+site;org.apache.fop.fonts.FontInfo.getFontInstance(FontTriplet, int);83;NewInstanceNode;true;true;true;finally_materialized
+site;org.apache.fop.fonts.FontInfo.getFontInstanceCache();8;NewInstanceNode;true;true;true;finally_materialized
+site;org.apache.fop.fonts.FontSelector.selectFontForCharactersInText(CharSequence, int, int, FOText, PercentBaseContext);31;NewArrayNode;true;false;false;not_virtualized
+site;org.apache.fop.fonts.FontSelector.selectFontForCharactersInText(CharSequence, int, int, FOText, PercentBaseContext);38;NewArrayNode;true;false;false;not_virtualized
+site;org.apache.fop.fonts.FontTriplet.getKey();8;NewInstanceNode;true;true;false;scalar_replaced
+site;org.apache.fop.fonts.GlyphMapping.processWordNoMapping(TextFragment, int, int, Font, MinOptMax, MinOptMax[], char, char, boolean, int);382;NewInstanceNode;true;true;true;finally_materialized
+site;org.apache.fop.layoutmgr.BreakingAlgorithm.addNode(int, BreakingAlgorithm$KnuthNode);23;NewArrayNode;true;false;false;not_virtualized
+site;org.apache.fop.layoutmgr.BreakingAlgorithm.createForcedNodes(BreakingAlgorithm$KnuthNode, int, int, int, double, double, int, int, int, int, int, int);12;NewInstanceNode;true;true;true;finally_materialized
+site;org.apache.fop.layoutmgr.BreakingAlgorithm.createNode(int, int, int, int, int, int);0;NewInstanceNode;true;true;true;finally_materialized
+site;org.apache.fop.layoutmgr.BreakingAlgorithm.createNode(int, int, int, int, int, int, double, int, int, int, double, BreakingAlgorithm$KnuthNode);0;NewInstanceNode;true;true;true;finally_materialized
+site;org.apache.fop.layoutmgr.BreakingAlgorithm.findBreakingPoints(KnuthSequence, int, double, boolean, int);226;NewInstanceNode;true;true;true;finally_materialized
+site;org.apache.fop.layoutmgr.BreakingAlgorithm.initialize();38;NewArrayNode;true;true;true;finally_materialized
+site;org.apache.fop.layoutmgr.FloatContentLayoutManager.checkForFloats(List, int, int);8;NewInstanceNode;true;true;false;scalar_replaced
+site;org.apache.fop.layoutmgr.FootenoteUtil.getFootnoteList(List);4;NewInstanceNode;true;true;true;finally_materialized
+site;org.apache.fop.layoutmgr.PageBreakingAlgorithm$KnuthPageNode.<init>(PageBreakingAlgorithm, int, int, int, int, int, int, int, int, int, int, double, int, int, int, double, BreakingAlgorithm$KnuthNode);33;NewInstanceNode;true;true;true;finally_materialized
+site;org.apache.fop.layoutmgr.PageBreakingAlgorithm.createNode(int, int, int, int, int, int, double, int, int, int, double, BreakingAlgorithm$KnuthNode);0;NewInstanceNode;true;true;true;finally_materialized
+site;org.apache.fop.layoutmgr.inline.LineLayoutManager$LineBreakingAlgorithm.makeLineBreakPosition(KnuthSequence, int, int, int, int, int, double, int, int);395;NewInstanceNode;true;true;true;finally_materialized
+site;org.apache.fop.layoutmgr.inline.TextLayoutManager$TextAreaBuilder.initWord(int);1;NewInstanceNode;true;true;true;finally_materialized
+site;org.apache.fop.layoutmgr.inline.TextLayoutManager$TextAreaBuilder.initWord(int);14;NewArrayNode;true;false;false;not_virtualized
+site;org.apache.fop.layoutmgr.inline.TextLayoutManager$TextAreaBuilder.initWord(int);26;NewArrayNode;true;false;false;not_virtualized
+site;org.apache.fop.layoutmgr.inline.TextLayoutManager.addElementsForASpace(List, int, GlyphMapping, int);0;NewInstanceNode;true;true;true;finally_materialized
+site;org.apache.fop.layoutmgr.inline.TextLayoutManager.addElementsForASpace(List, int, GlyphMapping, int);51;NewInstanceNode;true;true;true;finally_materialized
+site;org.apache.fop.layoutmgr.inline.TextLayoutManager.addElementsForASpace(List, int, GlyphMapping, int);75;NewInstanceNode;true;true;true;finally_materialized
+site;org.apache.fop.layoutmgr.inline.TextLayoutManager.addElementsForAWordFragment(List, int, GlyphMapping, int);0;NewInstanceNode;true;true;true;finally_materialized
+site;org.apache.fop.layoutmgr.inline.TextLayoutManager.addElementsForAWordFragment(List, int, GlyphMapping, int);44;NewInstanceNode;true;true;true;finally_materialized
+site;org.apache.fop.layoutmgr.inline.TextLayoutManager.getNextKnuthElements(LayoutContext, int);117;NewInstanceNode;true;true;false;scalar_replaced
+site;org.apache.fop.layoutmgr.inline.TextLayoutManager.getNextKnuthElements(LayoutContext, int);24;NewInstanceNode;true;true;true;finally_materialized
+site;org.apache.fop.layoutmgr.inline.TextLayoutManager.getNextKnuthElements(LayoutContext, int);32;NewInstanceNode;true;true;true;finally_materialized
+site;org.apache.fop.layoutmgr.inline.TextLayoutManager.getNextKnuthElements(LayoutContext, int);625;NewInstanceNode;true;true;true;finally_materialized
+site;org.apache.fop.layoutmgr.inline.TextLayoutManager.makeZeroWidthPenalty(int);0;NewInstanceNode;true;true;true;finally_materialized
+site;org.apache.fop.layoutmgr.inline.TextLayoutManager.processWhitespace(int, KnuthSequence, boolean, int);83;NewInstanceNode;true;true;true;finally_materialized
+site;org.apache.fop.pdf.PDFPaintingState.instantiateData();0;NewInstanceNode;true;true;true;finally_materialized
+site;org.apache.fop.pdf.PDFStream.add(StringBuffer);16;NewArrayNode;true;false;false;not_virtualized
+site;org.apache.fop.pdf.PDFStream.add(StringBuffer);56;NewArrayNode;true;false;false;not_virtualized
+site;org.apache.fop.pdf.PDFTextUtil.writeTJMappedCodePoint(int);8;NewInstanceNode;true;true;true;finally_materialized
+site;org.apache.fop.pdf.PDFTextUtil.writeTextMatrix(AffineTransform);0;NewInstanceNode;true;true;true;finally_materialized
+site;org.apache.fop.render.pdf.PDFPainter.drawTextWithDX(int, int, String, FontTriplet, int, int, int[]);107;NewInstanceNode;true;true;true;finally_materialized
+site;org.apache.fop.traits.MinOptMax.getInstance(int, int, int);92;NewInstanceNode;true;true;true;finally_materialized
+site;org.apache.fop.traits.MinOptMax.plus(MinOptMax);0;NewInstanceNode;true;true;true;finally_materialized
+site;org.apache.fop.traits.MinOptMax.plus(int);0;NewInstanceNode;true;true;true;finally_materialized
+site;org.apache.fop.util.CharUtilities$1.iterator();0;NewInstanceNode;true;true;false;scalar_replaced
+site;org.apache.fop.util.CharUtilities.codepointsIter(CharSequence, int, int);49;NewInstanceNode;true;true;false;scalar_replaced
+site;org.apache.xerces.util.SymbolTable$Entry.<init>(char[], int, int, SymbolTable$Entry);23;NewInstanceNode;true;true;true;finally_materialized
+site;org.apache.xerces.util.SymbolTable$Entry.<init>(char[], int, int, SymbolTable$Entry);6;NewArrayNode;true;false;false;not_virtualized
+site;org.apache.xerces.util.SymbolTable.addSymbol(char[], int, int);118;NewInstanceNode;true;true;true;finally_materialized
+site;org.apache.xerces.util.SymbolTable.rehash();18;NewArrayNode;true;false;false;not_virtualized
+site;org.apache.xml.serializer.ToStream.writeAttrString(Writer, String, String);23;NewArrayNode;true;false;false;not_virtualized
+summary;total_candidates;70
+summary;not_virtualized;12
+summary;scalar_replaced;7
+summary;finally_materialized;51

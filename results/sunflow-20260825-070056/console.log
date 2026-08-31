@@ -1,0 +1,14 @@
+Using scaled threading model. 16 processors detected, 16 threads used to drive the workload, in a possible range of [1,1024]
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 1 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 1 in 8285 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 2 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 2 in 2687 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 3 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 3 in 2759 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 4 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 4 in 2648 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting =====
+===== DaCapo 23.11-MR2-chopin sunflow PASSED in 2604 msec =====
+[Use -Djdk.graal.LogFile=<path> to redirect Graal log output to a file.]
+Writing benchmark counters to '/graal-dev/results/sunflow-20260825-070056/pea-runtime.csv'
+No results to collate for '/graal-dev/results/sunflow-20260825-070056/pea-static-aggregate.csv'

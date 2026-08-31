@@ -1,0 +1,4 @@
+record;class;method;descriptor;bci;opcode;source_file;pea_supported
+summary;total_explicit_allocation_sites;0
+summary;pea_supported_allocation_sites;0
+summary;multianewarray_sites;0

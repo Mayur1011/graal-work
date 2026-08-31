@@ -1,0 +1,4 @@
+dynamic counters;PEA runtime;materialized virtual objects;31668302
+dynamic counters;PEA runtime;virtualized objects;33959094
+dynamic counters;number of allocations;bytes;7357434
+dynamic counters;number of bytes allocated;bytes;394961184

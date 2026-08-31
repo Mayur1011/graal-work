@@ -1,0 +1,179 @@
+alignment.fo 11|VirtualInstance(0) LinkedHashMap$LinkedKeyIterator
+185|VirtualInstance(0) DoublyIndexedTable$Entry
+14|VirtualInstance(1) SVGOMAnimatedTransformList
+16|VirtualInstance(2) LinkedList
+187|VirtualInstance(3) LinkedList$Node
+allregions.fo 72|VirtualInstance(0) StringBuilder
+74|VirtualArray(1) B[16]
+223|VirtualInstance(2) String
+223|VirtualInstance(2) String
+223|VirtualInstance(2) String
+77|VirtualInstance(3) AbstractElement$ExtendedNamedNodeHashMap
+79|VirtualArray(4) Lorg/apache/batik/dom/AbstractElement$Entry;[3]
+background.fo 14|VirtualInstance(0) PDFObjectNumber
+barcode.fo 53|VirtualInstance(0) AffineTransform
+57|VirtualInstance(0) AffineTransform
+basic2.fo 129|VirtualInstance(0) AffineTransform
+134|VirtualInstance(1) IFGraphicContext$Group
+136|VirtualArray(2) Ljava/awt/geom/AffineTransform;[1]
+165|VirtualInstance(3) AffineTransform
+165|VirtualInstance(3) AffineTransform
+bleed-and-crop-marks.fo 94|VirtualInstance(0) DoublyIndexedTable$Entry
+88|VirtualInstance(1) SVGOMAnimatedTransformList
+90|VirtualInstance(2) LinkedList
+96|VirtualInstance(3) LinkedList$Node
+104|VirtualInstance(4) DoublyIndexedTable$Entry
+98|VirtualInstance(5) SVGOMAnimatedBoolean
+100|VirtualInstance(6) LinkedList
+106|VirtualInstance(7) LinkedList$Node
+blockcontainer.fo border.fo borders.fo 888|VirtualInstance(0) String
+888|VirtualInstance(0) String
+898|VirtualInstance(3) String
+891|VirtualInstance(1) StringBuffer
+893|VirtualArray(2) B[16]
+891|VirtualInstance(1) StringBuffer
+893|VirtualArray(2) B[16]
+49|VirtualInstance(0) CellPart
+51|VirtualInstance(1) CellPart
+84|VirtualInstance(0) AffineTransform
+bordershorthand.fo break.fo 160|VirtualInstance(2) AffineTransform
+306|VirtualInstance(3) PDFPaintingState$PDFData
+311|VirtualInstance(4) AffineTransform
+308|VirtualInstance(1) AffineTransform
+158|VirtualInstance(0) PDFPaintingState$PDFData
+12|VirtualInstance(0) HeapByteBuffer
+character.fo columnlevel1.fo 185|VirtualInstance(0) LinkedList$Node
+190|VirtualInstance(1) StringBuilder
+195|VirtualInstance(2) StringBuilder
+16|VirtualInstance(0) NonLeafPosition
+columns.fo 175|VirtualInstance(0) ArrayList
+corresprop.fo 914|VirtualArray(0) B[16]
+910|VirtualArray(1) B[16]
+930|VirtualInstance(2) String
+15|VirtualInstance(0) HeapCharBuffer
+embedding.fo 84|VirtualInstance(0) String
+84|VirtualInstance(0) String
+227|VirtualInstance(1) GenericText
+84|VirtualInstance(0) String
+227|VirtualInstance(1) GenericText
+18|VirtualInstance(0) AbstractSVGPathSegList$SVGPathSegCurvetoCubicItem
+198|VirtualArray(0) F[12]
+200|VirtualArray(1) I[2]
+21|VirtualInstance(0) FloatValue
+25|VirtualInstance(1) FloatValue
+455|VirtualInstance(0) AbstractSVGPathSegList$SVGPathSegCurvetoCubicItem
+9|VirtualInstance(0) Collectors$CollectorImpl
+225|VirtualInstance(0) LinkedHashMap$Entry
+230|VirtualInstance(1) LinkedHashMap$Entry
+extensive.fo fonts.fo franklin_2pageseqs.fo 18|VirtualArray(0) B[16]
+237|VirtualInstance(1) String
+194|VirtualInstance(1) NumericProperty
+59|VirtualInstance(0) RelativeNumericProperty
+franklin_alt.fo 135|VirtualInstance(0) ArrayList$Itr
+130|VirtualInstance(1) LinkedList
+42|VirtualInstance(0) HeapByteBuffer
+109|VirtualInstance(0) HeapByteBuffer
+franklin_rep.fo 438|VirtualInstance(0) ArrayList
+giro.fo 9|VirtualInstance(0) QName
+13|VirtualInstance(1) AugmentationsImpl
+15|VirtualInstance(2) AugmentationsImpl$SmallContainer
+17|VirtualArray(3) Ljava/lang/Object;[20]
+19|VirtualInstance(0) TableCell
+131|VirtualInstance(1) String
+127|VirtualInstance(0) String
+124|VirtualInstance(1) String
+120|VirtualInstance(0) String
+247|VirtualInstance(0) String
+247|VirtualInstance(0) String
+191|VirtualArray(0) B[16]
+191|VirtualArray(0) B[16]
+405|VirtualInstance(1) String
+405|VirtualInstance(1) String
+203|VirtualInstance(2) StringBuilder
+205|VirtualInstance(3) XMLResourceBundle$1
+207|VirtualInstance(4) XMLResourceBundle
+80|VirtualInstance(0) LoggingEventListener
+83|VirtualInstance(1) HashSet
+85|VirtualInstance(2) HashMap
+90|VirtualInstance(3) FOPEventListenerProxy
+headfoot.fo 48|VirtualInstance(0) StringBuffer
+50|VirtualArray(1) B[16]
+111|VirtualInstance(2) String
+53|VirtualInstance(3) StringBuffer
+55|VirtualArray(4) B[16]
+46|VirtualArray(5) Ljava/lang/String;[2]
+helloworld.fo 367|VirtualInstance(0) AffineTransform
+63|VirtualInstance(1) Path2D$Double
+63|VirtualInstance(1) Path2D$Double
+385|VirtualArray(6) B[20]
+387|VirtualArray(7) D[40]
+640|VirtualArray(0) B[16]
+640|VirtualArray(0) B[16]
+8|VirtualInstance(1) TableCellLayoutManager
+654|VirtualInstance(1) String
+654|VirtualInstance(1) String
+75|VirtualInstance(4) HashMap
+58|VirtualInstance(2) ArrayList
+60|VirtualArray(3) Ljava/lang/Object;[10]
+56|VirtualInstance(4) LMiter
+667|VirtualInstance(5) HashMap$Node
+53|VirtualInstance(0) FObj$FObjIterator
+hide.fo 669|VirtualInstance(6) HashMap$Node
+675|VirtualInstance(8) String
+79|VirtualInstance(9) Event
+672|VirtualInstance(7) String
+660|VirtualInstance(2) ArrayList$Itr
+662|VirtualInstance(3) Arrays$ArrayItr
+213|VirtualInstance(0) StringBuffer
+193|VirtualInstance(1) StringBuffer
+hyphen.fo 165|VirtualInstance(0) StringBuffer
+167|VirtualArray(1) B[16]
+images.fo inhprop.fo instream.fo 32|VirtualArray(0) B[16]
+32|VirtualArray(0) B[16]
+32|VirtualArray(0) B[16]
+247|VirtualInstance(1) String
+247|VirtualInstance(1) String
+233|VirtualInstance(0) CondLengthProperty
+keep.fo 81|VirtualInstance(0) ArrayIndexOutOfBoundsException
+leader.fo 49|VirtualInstance(0) LayoutContext
+304|VirtualInstance(0) LayoutContext
+31|VirtualInstance(0) LinkedList
+link.fo list.fo 192|VirtualInstance(0) Matcher
+189|VirtualInstance(1) ArrayList
+196|VirtualArray(2) Ljava/lang/String;[1]
+198|VirtualInstance(3) ArrayList$SubList
+missing-image.fo 70|VirtualInstance(0) Block
+158|VirtualInstance(1) Block
+newlinktest.fo normal.fo normalex.fo omit.fo pagelevel1.fo 352|VirtualInstance(0) BorderProps
+120|VirtualInstance(1) TreeMap
+354|VirtualInstance(2) BorderProps
+122|VirtualInstance(3) TreeMap
+356|VirtualInstance(4) BorderProps
+124|VirtualInstance(5) TreeMap
+358|VirtualInstance(6) BorderProps
+126|VirtualInstance(7) TreeMap
+pagelevel2.fo pagelevel3.fo pagelevel4.fo pdfoutline.fo 19|VirtualInstance(0) DateFormatSymbols
+174|VirtualInstance(0) Vector$ListItr
+155|VirtualInstance(1) Vector$ListItr
+309|VirtualInstance(1) AbstractList$ListItr
+plan.fo 152|VirtualInstance(0) Vector$ListItr
+139|VirtualInstance(0) Vector
+252|VirtualArray(1) Ljava/lang/Object;[10]
+254|VirtualInstance(2) String
+256|VirtualInstance(3) StringProperty
+137|VirtualInstance(4) FontFamilyProperty
+readme.fo 103|VirtualArray(0) I[2]
+rounded-corners.fo simple.fo simplecol.fo simplecol2.fo 18|VirtualInstance(0) PageBreakingAlgorithm$KnuthPageNode
+21|VirtualInstance(1) ArrayList
+simplecol3.fo 9|VirtualInstance(0) QName
+45|VirtualArray(0) Ljava/lang/Class;[0]
+simplecol4.fo 282|VirtualInstance(0) LayoutContext
+124|VirtualInstance(0) LinkedList
+894|VirtualInstance(1) LinkedList$Node
+286|VirtualInstance(2) LinkedList$Node
+894|VirtualInstance(1) LinkedList$Node
+1251|VirtualInstance(3) LinkedList$Node
+294|VirtualInstance(4) PositionIterator
+296|VirtualInstance(5) LinkedList$ListItr
+284|VirtualInstance(6) LinkedList
+space.fo table.fo tableunits.fo textdeko.fo 
