@@ -1,3 +1,4 @@
 # dacapo-23.11-MR2-chopin
 benchmarks/dacapo*
 .devcontainer/
+results/
