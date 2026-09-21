@@ -14,6 +14,9 @@ pea-testing/
     ├── cases/
     │   ├── PEAAllocationTest/
     │   │   └── Test.java
+    │   ├── PEAMaterializationReasonsTest/
+    │   │   ├── Test.java
+    │   │   └── PEACompilationBarrier.java
     │   ├── Test1/
     │   │   ├── Test.java
     │   │   └── Helper.java
@@ -43,9 +46,12 @@ the first iterations as warmups. The runner's runtime counter markers match
 only the final `starting ====` through `PASSED in` interval, giving exactly one
 measured runtime sample per fork. Compile-time PEA reporting remains enabled
 through warmup because warmup compilation produces the measured machine code.
-Background compilation is disabled so compilation and compact report
-publication complete synchronously. Consequently, warmup time is a convergence
-diagnostic in this experiment, not a benchmark-throughput result.
+The runner explicitly enables background compilation because the current
+development JVM does not complete JVMCI startup with
+`-XX:-BackgroundCompilation`. Use enough warmups for application compilations
+to settle before the measured iteration; compare multiple warmup counts when
+establishing convergence. Warmup time is a convergence diagnostic in this
+experiment, not a benchmark-throughput result.
 
 The top-level DaCapo JAR contains the harness. Keep its expanded distribution
 beside it; allocation inventory scans application libraries below its `jar/`
@@ -66,13 +72,17 @@ dacapo-tests/results/h2-<timestamp>/
 ├── metadata.txt
 ├── fork-01/
 │   ├── pea-effectiveness.csv
+│   ├── pea-materialization-reasons.csv
 │   ├── pea-runtime.csv
+│   ├── vm-options.txt
 │   ├── summary.txt
 │   └── console.log
 ├── ...
 ├── fork-10/
 ├── aggregate-static.csv
 ├── aggregate-runtime.csv
+├── aggregate-materialization-reasons-static.csv
+├── aggregate-materialization-reasons-runtime.csv
 ├── site-stability.csv
 └── aggregate-summary.txt
 ```
@@ -125,7 +135,9 @@ Self-test output is isolated under:
 self-tests/results/Test2-<timestamp>/
 ├── allocation-inventory.csv
 ├── pea-effectiveness.csv
+├── pea-materialization-reasons.csv
 ├── pea-runtime.csv
+├── vm-options.txt
 ├── summary.txt
 ├── console.log
 ├── metadata.txt
@@ -151,3 +163,64 @@ final heap allocations = (C - V) + M
 
 The optional `PEA_VirtualizedObjects` and `PEA_MaterializedObjects` CounterKey
 values count compiler events and are not unique source-site totals.
+
+## Final materialization reasons
+
+`pea-materialization-reasons.csv` records final materialization occurrences that
+survive PEA and reach `CommitAllocationNode` lowering. It contains the source
+allocation site and compilation/inlining context, the immediate reason, the root
+reason, and the node/source position that triggered materialization. Temporary
+materializations that are virtualized again by a later PEA iteration are not
+reported.
+
+The bounded reasons are:
+
+```text
+call_argument                 method_return
+exception_unwind              static_field_store
+instance_field_store          array_store
+unsupported_use               merge_incompatible
+phi_incompatible              loop_exit_state
+loop_analysis_limit           lock_constraint
+virtualizer_requested         object_graph_dependency
+lock_order_dependency         other_unknown
+```
+
+`object_graph_dependency` means that the object was pulled into the same commit
+because another materialized virtual object referenced it. Its `root_reason`
+retains the initiating reason. `lock_order_dependency` similarly identifies
+transitive materialization required by strict lock ordering.
+
+The runtime reason counters use the `PEA materialization reasons` counter group.
+For every completed run, `pea-test.sh` verifies both invariants:
+
+```text
+sum(runtime reason counters) = final materialized executions (M)
+sum(compile-time reason occurrences) = final materialization occurrences
+```
+
+A source allocation site can have different reasons on different control-flow
+paths or inlining contexts. Consequently, the `materialization_reasons` column
+in `pea-effectiveness.csv` is a set, and `reason_classification` is
+`multiple_reasons` when the set has more than one member.
+
+The controlled category exercise warms both branches of its test graph and then
+waits for the compact PEA snapshot before opening the runtime measurement
+interval. Its barrier helper is in the excluded `pea.testing` package, so helper
+allocations do not enter the `pea.reasons` inventory or counters:
+
+```bash
+./pea-testing/pea-test.sh self PEAMaterializationReasonsTest -- 100000
+```
+
+These labels identify the IR operation or PEA constraint that triggered
+materialization. They are not a separate whole-program proof of thread escape.
+
+Run without `-Djdk.graal.Inline=false`: the default result intentionally
+captures the reasons produced after normal Graal inlining. Use `--vm-option`
+only for a separately labelled compiler-policy experiment. Every result
+directory records the runner-supplied JVM options in `vm-options.txt`.
+
+The test is an end-to-end exercise rather than an assertion that every listed
+reason must occur: some compiler-policy categories, especially loop cutoffs and
+lock-order constraints, depend on the selected VM configuration and graph shape.

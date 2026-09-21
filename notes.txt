@@ -5,6 +5,21 @@ GOAL:
 4. and then use speculation to improve precision and stack allocation.
 
 
+
+TODO:
+1. inlining vs non-inlining results (to compare how much iniling helps)
+
+
+
+
+
+
+
+
+
+
+
+
 --------
 whatever i am doing till now is to find compile-time analysis.
 
@@ -161,17 +176,51 @@ How do it get the pea-runtime.csv?
 
   The runner only specifies the filename and later reads the file.
 
+--------------------------------------------------------------
+## Assessment of the three questions
+
+Question: Compile-time virtualized/materialized objects
+Current status : Partial
+What is actually measured: Unique source allocation sites and cumulative compilation/inlining-context outcomes—not runtime objects and not exact IR occurrence counts
+
+Runtime virtualized/materialized objects
+Strong, with scope limitations
+Executions of instrumented PEA candidates while Graal-compiled machine code runs
+
+Reason for each materialization
+Strong for M, incomplete for all heap allocations
+Every tracked virtualized-then-materialized occurrence receives one materialization-trigger category
+
+
+Compile-time finalization:
+currently: for each alloc site reached to pea, outcomes seen across compilation and inling context
 
 
 
 
 
 
+ One important limitation is that a static context is keyed by site, compilation and
+  inline chain. Multiple allocation-node copies with the same source position inside
+  one context can collapse into one record in graal/compiler/src/jdk.graal.compiler/
+  src/jdk/graal/compiler/virtual/phases/ea/PEAEffectivenessReporter.java:312. If one
+  copy scalar-replaces and another materializes, the current Boolean state can lose
+  that distinction.
 
+  The optional compiler CounterKey values are not a complete solution. The
+  virtualization counter is incremented when virtualization is requested during
+  analysis, while materialization is counted much later during surviving commit
+  lowering. They therefore do not represent symmetric final IR outcomes.
 
+  For publication, choose one of these formulations:
 
+  - Preferred: “compile-time allocation-site outcomes.”
+  - Additional metric: “final IR allocation occurrences per compilation context.”
+  - Avoid: “compile-time object count.”
 
-
+  If you require exact IR occurrence counts, an occurrence identity must be
+  propagated from the original allocation node through its virtual and materialized
+  forms.
 
 
 

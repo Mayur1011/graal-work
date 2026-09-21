@@ -43,6 +43,7 @@ RUN apt update && apt install -y \
     git \
     vim \
     tmux \
+    ripgrep \
     build-essential \
     python3 \
     python3-pip \
