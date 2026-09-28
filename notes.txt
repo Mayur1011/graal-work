@@ -228,6 +228,46 @@ currently: for each alloc site reached to pea, outcomes seen across compilation 
 
 
 
+// materialization reasons
+## Proposed categories
+
+   Family              Category                   Meaning
+  ━━━━━━━━━━━━━━━━━━  ━━━━━━━━━━━━━━━━━━━━━━━━━  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   Program escape      call_argument              Passed to a call PEA cannot virtualize through
+  ──────────────────  ─────────────────────────  ──────────────────────────────────────────────────────────────────────────────
+   Program escape      method_return              Returned from the compiled method
+  ──────────────────  ─────────────────────────  ──────────────────────────────────────────────────────────────────────────────
+   Program escape      exception_unwind           Escapes through a thrown exception
+  ──────────────────  ─────────────────────────  ──────────────────────────────────────────────────────────────────────────────
+   Program escape      static_field_store         Stored into a static field; potential global publication
+  ──────────────────  ─────────────────────────  ──────────────────────────────────────────────────────────────────────────────
+   Program escape      instance_field_store       Stored into a field of an already materialized object
+  ──────────────────  ─────────────────────────  ──────────────────────────────────────────────────────────────────────────────
+   Program escape      array_store                Stored into an already materialized array
+  ──────────────────  ─────────────────────────  ──────────────────────────────────────────────────────────────────────────────
+   PEA limitation      unsupported_use            A node uses the object in a way its virtualizer cannot handle
+  ──────────────────  ─────────────────────────  ──────────────────────────────────────────────────────────────────────────────
+   Control flow        merge_incompatible         Virtual states cannot be reconciled at a control-flow merge
+  ──────────────────  ─────────────────────────  ──────────────────────────────────────────────────────────────────────────────
+   Control flow        phi_incompatible           Virtual objects cannot be represented through a value phi
+  ──────────────────  ─────────────────────────  ──────────────────────────────────────────────────────────────────────────────
+   Loop handling       loop_exit_state            Required at an exception-handling loop exit
+  ──────────────────  ─────────────────────────  ──────────────────────────────────────────────────────────────────────────────
+   Loop handling       loop_analysis_limit        Loop cutoff, overflow retry, or materialize-all mode
+  ──────────────────  ─────────────────────────  ──────────────────────────────────────────────────────────────────────────────
+   Locking             lock_constraint            Monitor or lock-order requirement
+  ──────────────────  ─────────────────────────  ──────────────────────────────────────────────────────────────────────────────
+   Internal request    virtualizer_requested      A Virtualizable node explicitly calls ensureMaterialized
+  ──────────────────  ─────────────────────────  ──────────────────────────────────────────────────────────────────────────────
+   Dependency          object_graph_dependency    Materialized because it is referenced by another materialized virtual object
+  ──────────────────  ─────────────────────────  ──────────────────────────────────────────────────────────────────────────────
+   Dependency          lock_order_dependency      Materialized transitively to preserve strict lock order
+  ──────────────────  ─────────────────────────  ──────────────────────────────────────────────────────────────────────────────
+   Fallback            other_unknown              Ensures every final materialization remains accounted for
+
+  The fallback category is essential because it gives the runtime invariant:
+
+  final materialized M = sum of all materialization-reason counters
 
 
 
@@ -237,9 +277,25 @@ currently: for each alloc site reached to pea, outcomes seen across compilation 
 
 
 
+One thing to be aware of (not a bug, but a common source of confusion when interpreting results): "Static sites observed" (111) is far smaller than "PEA-eligible sites" (1874) — that's expected, since only allocation sites in code that actually got JIT-compiled and reached PEA show up as observed candidates; the rest are cold and never went through PEA. And "Compile-time reason: X" counts are raw IR occurrence counts across all compilations (not deduplicated per site), so they won't line up 1:1 with the site-level always_materialized/mixed counts — different units, both correct, just don't cross-compare them directly.
 
+----------------------------------------------------------------------------
 
+What actually needs to be built
 
+This is the important caveat: Graal already inlines aggressively before PEA runs (inlining is a separate earlier phase; PartialEscapePhase requires unlessRunBefore(HIGH_TIER_LOWERING), i.e., it runs late, after inlining decisions are made). So SMC/SMI in Graal terms mostly reduces to "make the existing profile-guided devirtualization/inlining heuristics aware that an argument is a to-be-virtualized allocation, and bias them toward inlining/devirtualizing it" — not a new speculation engine. That's a small, targeted change (a hint from VirtualizerToolImpl back to the inlining phase), not new infrastructure.
+
+SBE is the real gap and the real payoff here. It needs:
+
+1. A speculation point at merges. In PartialEscapeClosure's merge-processing (EffectsClosure.java merge handling → the calls around line 1400-1930), when two branch states disagree on a virtual object, instead of unconditionally materializing on both incoming edges, check the IfNode's branch probability (already available via ProfileData/BranchProbabilityNode info Graal tracks everywhere). If one edge is cold (say <5%), keep the object virtual along the hot edge and insert a deopt guard on the cold edge carrying the object's virtual state in the FrameState (Graal's deopt machinery already reconstructs materialized objects from virtual-object descriptors in a FrameState for the "deopt while still virtual" case — that's the "dynamic heapification" the paper describes, and it already exists for ordinary uncommon traps).
+2. A PEAMaterializationReason for the speculative path, e.g. SPECULATIVE_BRANCH_MATERIALIZED, distinct from merge_incompatible, so your reporter can measure how often the speculation actually pays off vs. how often the guard fires (deopt rate) — you need that number to know if this is a net win, since a bad guess costs a full deopt.
+3. A correctness constraint: only legal when the cold-edge materialization would be a pure side-effect-free heapify (no observable effects have run since the branch that can't be undone by a deopt). Graal's deopt framework already enforces this for FrameState-based rematerialization, so this constrains you to speculating at points where you're already inside a deoptimizable region — should hold for ordinary hot loops in sunflow.
+
+Recommendation
+
+Don't build SMC/SMI as new machinery — check whether inlining decisions already account for PEA candidates, and if not, feed a "this callee receives a virtualizable allocation" signal into the existing inlining cost model (cheap, call_argument/method_return are only 4% of your cost anyway).
+
+Build SBE as the actual research contribution: one guarded/speculative merge path in PartialEscapeClosure, gated by branch probability, with a new reason id to measure hit/miss rate. That's the 89%-of-cost lever, and it's the part of the paper Graal doesn't already do.
 
 
 

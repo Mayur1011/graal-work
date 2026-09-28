@@ -3,3 +3,4 @@ benchmarks/dacapo*
 .devcontainer/
 results/
 graal-programs/PEAAllocationTest/results/
+notes.txt

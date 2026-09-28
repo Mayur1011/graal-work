@@ -1,0 +1,69 @@
+1. Static analysis knows a lot about the program, but little about this particular execution.
+2. JIT compilation knows a lot about this particular execution, but cannot afford expensive whole-program analysis.
+3. CoSSJIT lets static analysis do the expensive reasoning beforehand while deliberately leaving some decisions unresolved for the JIT.
+4. in terms of EA, the static analysis can do the exact reasoning why object might escape. it also provides when can the object might no escape. 
+5. the jit compiler cant do this analysis, because lets say before each hot method compilation if we do static analysis, it will be expensive.
+6. JIT does runtime specialization. 
+7. polymorphic calls: a call site mite be resolved to multiple targets but the parameter might be escaping only in some of the targets, so we can specify that if it resolves to some target then it doesnt escape and we can do optimization there. 
+8. branches: object might be scalar replaced if a non-escaping branch is dominant.
+9. inlining: can we inling more. inlining changes the lifetime boundary against which escape is evaluated.
+10. SMC = Speculative polymorphic Call
+    SMI = Speculative Method Inline
+    SBE = Speculative Branch Execution
+11. dynamic heapification - if the speculation fails, we allocate corresponding object on heap, copy state and update references
+12. we can blindly put everytime on stack and then do heapification. as we have we consider the cost of heapification. so cossJit has a threashold (ST = 70%)
+13. cossjit used both dynamic class hierarchy(Which receiver types are currently possible/loaded?) and type profiling information (Which receiver types have actually occurred, and how frequently?).
+
+
+
+
+
+
+
+Q. In scalar replacement, we replace object with its fields, but when neeed to heapify the object again how do we reconstruct the while original object from its fields? and also how do we update the references to the original object?
+Q. All the objects that are reachable from the heapified object, how do we create objects for them and update their references to point to the new heapified object?
+
+
+
+
+
+
+
+
+
+
+
+the major drawback is merge and phi incompatibility for PEA.
+so useing speculative branch is benificial
+
+also graal does materialzation. 
+
+
+priority inlining 
+- choose which methods to inline (frequently executed methods, small methods, etc.) which doesnt increase the graph size too much.
+- we can use the SMI in cossjit and give that results as input to graal priority inlining. 
+- integrates most naturally with Graal:
+  1. Offline analysis identifies allocations that become nonescaping after a particular call is inlined.
+  2. Write these facts to a .res file keyed by class, method, descriptor, call BCI and allocation BCI.
+  3. Load the summaries in Graal.
+  4. Add an escape-analysis benefit to Graal’s priority inliner.
+  5. Inline the method when profitable.
+  6. Let the existing final PEA scalar-replace the allocation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
