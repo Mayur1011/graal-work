@@ -311,7 +311,7 @@ Build SBE as the actual research contribution: one guarded/speculative merge pat
 
 
 
-
+/*============================================== SETUP INSTRUCTIONS =====================================================*/
 
 STEPS:
 
@@ -333,7 +333,7 @@ ON LOCAL MACHINE:
 
 2. Select the JDK with JVMCI support using mx fetch-jdk. run this from graal/compiler/
   - mx -y fetch-jdk default
-  - export JAVA_HOME=/home/ubuntu/.mx/jdks/labsjdk-ce-latest-jvmci-25.1-b17_amd64
+  - export JAVA_HOME=/home/ubuntu/.mx/jdks/labsjdk-ce-latest-jvmci-25.4-b23_amd64
   - export PATH=$JAVA_HOME/bin:$PATH
 
 3. Build the compiler using mx build

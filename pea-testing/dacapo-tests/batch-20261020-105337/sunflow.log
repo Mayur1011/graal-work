@@ -1,0 +1,1226 @@
+Campaign: /graal-dev/pea-testing/dacapo-tests/results/sunflow-20261020-105337
+
+=== Fork 1/5 ===
+Using scaled threading model. 16 processors detected, 16 threads used to drive the workload, in a possible range of [1,1024]
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 1 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 1 in 9302 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 2 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 2 in 3012 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 3 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 3 in 2690 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 4 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 4 in 2663 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 5 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 5 in 2639 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 6 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 6 in 2749 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 7 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 7 in 2730 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 8 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 8 in 2676 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 9 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 9 in 2706 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 10 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 10 in 2582 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 11 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 11 in 2621 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 12 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 12 in 2667 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 13 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 13 in 2617 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 14 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 14 in 2683 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 15 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 15 in 2591 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 16 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 16 in 2621 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 17 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 17 in 2707 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 18 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 18 in 2597 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 19 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 19 in 2652 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 20 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 20 in 2583 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 21 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 21 in 2656 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 22 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 22 in 2605 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 23 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 23 in 2578 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 24 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 24 in 2663 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 25 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 25 in 2620 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 26 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 26 in 2634 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 27 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 27 in 2660 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 28 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 28 in 2698 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 29 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 29 in 2634 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 30 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 30 in 2694 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 31 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 31 in 2539 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 32 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 32 in 2647 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 33 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 33 in 2633 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 34 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 34 in 2709 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 35 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 35 in 2731 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 36 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 36 in 2725 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 37 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 37 in 2612 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 38 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 38 in 2633 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 39 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 39 in 2678 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 40 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 40 in 2592 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 41 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 41 in 2630 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 42 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 42 in 2620 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 43 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 43 in 2730 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 44 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 44 in 2652 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 45 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 45 in 2577 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 46 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 46 in 2687 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 47 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 47 in 2669 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 48 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 48 in 2710 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 49 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 49 in 2644 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 50 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 50 in 2685 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 51 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 51 in 2678 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 52 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 52 in 2677 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 53 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 53 in 2611 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 54 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 54 in 2689 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 55 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 55 in 2696 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 56 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 56 in 2684 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 57 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 57 in 2765 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 58 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 58 in 2745 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 59 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 59 in 2639 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 60 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 60 in 2774 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 61 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 61 in 2643 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 62 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 62 in 2699 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 63 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 63 in 2674 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 64 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 64 in 2712 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 65 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 65 in 2732 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 66 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 66 in 2657 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 67 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 67 in 2756 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 68 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 68 in 2683 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 69 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 69 in 2717 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 70 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 70 in 2636 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 71 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 71 in 2641 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 72 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 72 in 2749 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 73 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 73 in 2662 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 74 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 74 in 2706 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 75 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 75 in 2755 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 76 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 76 in 2637 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 77 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 77 in 2704 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 78 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 78 in 2614 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 79 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 79 in 2712 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 80 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 80 in 2648 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 81 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 81 in 2822 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 82 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 82 in 2711 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 83 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 83 in 2702 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 84 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 84 in 2663 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 85 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 85 in 2671 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 86 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 86 in 2770 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 87 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 87 in 2717 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 88 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 88 in 2662 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 89 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 89 in 2673 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 90 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 90 in 2728 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 91 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 91 in 2668 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 92 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 92 in 2739 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 93 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 93 in 2770 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 94 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 94 in 2672 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 95 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 95 in 2665 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 96 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 96 in 2719 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 97 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 97 in 2651 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 98 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 98 in 2696 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 99 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 99 in 2660 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting =====
+===== DaCapo 23.11-MR2-chopin sunflow PASSED in 2652 msec =====
+[Use -Djdk.graal.LogFile=<path> to redirect Graal log output to a file.]
+Writing benchmark counters to '/graal-dev/pea-testing/dacapo-tests/results/sunflow-20261020-105337/fork-01/pea-runtime.csv'
+=== Static allocation-site outcomes ===
+Total explicit allocation sites: 1877
+PEA-eligible sites by opcode: 1874
+Sites observed by PEA: 134
+Always scalar replaced: 26
+Always materialized: 69
+Always not virtualized: 15
+Mixed across compilation contexts: 24
+
+=== Runtime outcomes in measured machine code ===
+Candidate executions: 529972222
+Initially virtualized: 529963794
+Scalar replaced: 186813615
+Virtualized then materialized: 343150179
+Never virtualized: 8428
+Final heap allocations: 343158607
+Scalar-replacement rate: 35.25%
+Final-heap rate: 64.75%
+
+=== Final PEA materialization reasons ===
+Compile-time final IR occurrences: 454
+call_argument                    compile=  110 | runtime=  14359739
+method_return                    compile=   38 | runtime=   1703313
+instance_field_store             compile=   67 | runtime=  17994254
+array_store                      compile=   32 | runtime=   5932357
+merge_incompatible               compile=   33 | runtime=  66227396
+phi_incompatible                 compile=  174 | runtime= 236933120
+
+=== Fork 2/5 ===
+Using scaled threading model. 16 processors detected, 16 threads used to drive the workload, in a possible range of [1,1024]
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 1 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 1 in 8340 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 2 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 2 in 3061 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 3 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 3 in 2848 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 4 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 4 in 2793 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 5 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 5 in 2880 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 6 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 6 in 2756 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 7 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 7 in 2705 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 8 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 8 in 2789 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 9 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 9 in 2809 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 10 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 10 in 2696 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 11 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 11 in 2756 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 12 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 12 in 2738 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 13 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 13 in 2683 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 14 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 14 in 2740 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 15 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 15 in 2758 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 16 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 16 in 2708 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 17 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 17 in 2695 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 18 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 18 in 2777 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 19 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 19 in 2677 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 20 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 20 in 2749 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 21 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 21 in 2784 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 22 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 22 in 2813 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 23 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 23 in 2742 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 24 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 24 in 2692 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 25 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 25 in 2737 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 26 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 26 in 2771 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 27 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 27 in 2731 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 28 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 28 in 2718 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 29 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 29 in 2841 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 30 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 30 in 2671 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 31 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 31 in 2705 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 32 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 32 in 2721 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 33 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 33 in 2757 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 34 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 34 in 2760 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 35 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 35 in 2762 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 36 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 36 in 2685 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 37 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 37 in 2733 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 38 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 38 in 2699 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 39 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 39 in 2758 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 40 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 40 in 2733 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 41 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 41 in 2770 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 42 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 42 in 2784 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 43 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 43 in 2751 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 44 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 44 in 2689 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 45 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 45 in 2761 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 46 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 46 in 2754 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 47 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 47 in 2686 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 48 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 48 in 2845 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 49 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 49 in 2762 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 50 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 50 in 2745 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 51 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 51 in 2708 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 52 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 52 in 2753 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 53 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 53 in 2716 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 54 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 54 in 2723 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 55 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 55 in 2742 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 56 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 56 in 2674 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 57 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 57 in 2742 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 58 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 58 in 2744 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 59 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 59 in 2736 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 60 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 60 in 2761 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 61 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 61 in 2729 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 62 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 62 in 2787 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 63 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 63 in 2711 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 64 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 64 in 2690 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 65 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 65 in 2712 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 66 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 66 in 2714 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 67 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 67 in 2778 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 68 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 68 in 2742 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 69 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 69 in 2683 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 70 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 70 in 2771 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 71 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 71 in 2706 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 72 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 72 in 2776 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 73 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 73 in 2736 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 74 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 74 in 2765 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 75 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 75 in 2694 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 76 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 76 in 2715 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 77 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 77 in 2735 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 78 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 78 in 2773 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 79 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 79 in 2679 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 80 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 80 in 2716 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 81 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 81 in 2657 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 82 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 82 in 2717 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 83 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 83 in 2664 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 84 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 84 in 2707 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 85 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 85 in 2764 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 86 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 86 in 2672 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 87 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 87 in 2791 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 88 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 88 in 2700 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 89 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 89 in 2733 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 90 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 90 in 2682 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 91 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 91 in 2675 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 92 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 92 in 2737 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 93 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 93 in 2754 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 94 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 94 in 2706 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 95 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 95 in 2765 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 96 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 96 in 2663 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 97 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 97 in 2778 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 98 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 98 in 2755 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 99 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 99 in 2801 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting =====
+===== DaCapo 23.11-MR2-chopin sunflow PASSED in 2733 msec =====
+[Use -Djdk.graal.LogFile=<path> to redirect Graal log output to a file.]
+Writing benchmark counters to '/graal-dev/pea-testing/dacapo-tests/results/sunflow-20261020-105337/fork-02/pea-runtime.csv'
+=== Static allocation-site outcomes ===
+Total explicit allocation sites: 1877
+PEA-eligible sites by opcode: 1874
+Sites observed by PEA: 134
+Always scalar replaced: 26
+Always materialized: 66
+Always not virtualized: 15
+Mixed across compilation contexts: 27
+
+=== Runtime outcomes in measured machine code ===
+Candidate executions: 529972222
+Initially virtualized: 529963794
+Scalar replaced: 189327895
+Virtualized then materialized: 340635899
+Never virtualized: 8428
+Final heap allocations: 340644327
+Scalar-replacement rate: 35.72%
+Final-heap rate: 64.28%
+
+=== Final PEA materialization reasons ===
+Compile-time final IR occurrences: 456
+call_argument                    compile=  101 | runtime=  12908191
+method_return                    compile=   41 | runtime=   1081221
+instance_field_store             compile=   57 | runtime=  18201618
+array_store                      compile=   35 | runtime=   5932357
+merge_incompatible               compile=   32 | runtime=  66227396
+phi_incompatible                 compile=  190 | runtime= 236285116
+
+=== Fork 3/5 ===
+Using scaled threading model. 16 processors detected, 16 threads used to drive the workload, in a possible range of [1,1024]
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 1 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 1 in 8392 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 2 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 2 in 2870 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 3 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 3 in 2782 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 4 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 4 in 2828 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 5 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 5 in 2710 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 6 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 6 in 2781 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 7 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 7 in 2682 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 8 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 8 in 2776 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 9 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 9 in 2754 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 10 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 10 in 2705 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 11 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 11 in 2752 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 12 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 12 in 2730 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 13 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 13 in 2693 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 14 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 14 in 2692 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 15 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 15 in 2722 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 16 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 16 in 2716 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 17 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 17 in 2735 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 18 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 18 in 2690 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 19 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 19 in 2723 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 20 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 20 in 2690 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 21 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 21 in 2713 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 22 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 22 in 2853 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 23 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 23 in 2759 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 24 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 24 in 2720 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 25 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 25 in 2688 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 26 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 26 in 2742 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 27 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 27 in 2717 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 28 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 28 in 2742 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 29 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 29 in 2652 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 30 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 30 in 2690 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 31 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 31 in 2674 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 32 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 32 in 2674 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 33 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 33 in 2633 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 34 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 34 in 2661 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 35 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 35 in 2707 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 36 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 36 in 2710 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 37 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 37 in 2680 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 38 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 38 in 2754 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 39 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 39 in 2730 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 40 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 40 in 2680 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 41 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 41 in 2694 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 42 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 42 in 2687 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 43 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 43 in 2714 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 44 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 44 in 2686 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 45 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 45 in 2649 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 46 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 46 in 2679 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 47 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 47 in 2776 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 48 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 48 in 2768 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 49 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 49 in 2767 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 50 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 50 in 2666 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 51 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 51 in 2595 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 52 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 52 in 2609 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 53 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 53 in 2682 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 54 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 54 in 2733 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 55 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 55 in 2715 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 56 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 56 in 2724 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 57 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 57 in 2638 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 58 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 58 in 2684 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 59 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 59 in 2637 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 60 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 60 in 2663 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 61 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 61 in 2692 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 62 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 62 in 2694 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 63 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 63 in 2684 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 64 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 64 in 2761 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 65 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 65 in 2611 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 66 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 66 in 2728 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 67 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 67 in 2659 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 68 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 68 in 2700 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 69 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 69 in 2741 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 70 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 70 in 2706 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 71 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 71 in 2682 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 72 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 72 in 2719 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 73 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 73 in 2675 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 74 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 74 in 2703 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 75 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 75 in 2750 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 76 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 76 in 2696 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 77 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 77 in 2737 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 78 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 78 in 2660 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 79 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 79 in 2735 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 80 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 80 in 2653 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 81 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 81 in 2662 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 82 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 82 in 2702 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 83 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 83 in 2664 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 84 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 84 in 2716 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 85 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 85 in 2693 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 86 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 86 in 2685 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 87 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 87 in 2616 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 88 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 88 in 2707 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 89 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 89 in 2715 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 90 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 90 in 2696 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 91 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 91 in 2632 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 92 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 92 in 2625 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 93 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 93 in 2673 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 94 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 94 in 2639 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 95 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 95 in 2646 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 96 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 96 in 2699 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 97 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 97 in 2675 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 98 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 98 in 2618 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 99 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 99 in 2733 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting =====
+===== DaCapo 23.11-MR2-chopin sunflow PASSED in 2660 msec =====
+[Use -Djdk.graal.LogFile=<path> to redirect Graal log output to a file.]
+Writing benchmark counters to '/graal-dev/pea-testing/dacapo-tests/results/sunflow-20261020-105337/fork-03/pea-runtime.csv'
+=== Static allocation-site outcomes ===
+Total explicit allocation sites: 1877
+PEA-eligible sites by opcode: 1874
+Sites observed by PEA: 134
+Always scalar replaced: 29
+Always materialized: 66
+Always not virtualized: 15
+Mixed across compilation contexts: 24
+
+=== Runtime outcomes in measured machine code ===
+Candidate executions: 529972222
+Initially virtualized: 529963794
+Scalar replaced: 187475629
+Virtualized then materialized: 342488165
+Never virtualized: 8428
+Final heap allocations: 342496593
+Scalar-replacement rate: 35.37%
+Final-heap rate: 64.63%
+
+=== Final PEA materialization reasons ===
+Compile-time final IR occurrences: 451
+call_argument                    compile=  109 | runtime=   1835052
+method_return                    compile=   42 | runtime=   1910677
+instance_field_store             compile=   65 | runtime=  20561273
+array_store                      compile=   35 | runtime=   5932357
+merge_incompatible               compile=   29 | runtime=  75119405
+phi_incompatible                 compile=  171 | runtime= 237129401
+
+=== Fork 4/5 ===
+Using scaled threading model. 16 processors detected, 16 threads used to drive the workload, in a possible range of [1,1024]
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 1 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 1 in 9570 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 2 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 2 in 2998 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 3 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 3 in 2713 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 4 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 4 in 2836 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 5 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 5 in 2741 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 6 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 6 in 2694 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 7 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 7 in 2690 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 8 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 8 in 2677 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 9 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 9 in 2739 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 10 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 10 in 2682 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 11 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 11 in 2683 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 12 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 12 in 2738 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 13 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 13 in 2664 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 14 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 14 in 2746 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 15 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 15 in 2647 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 16 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 16 in 2766 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 17 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 17 in 230918 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 18 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 18 in 2728 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 19 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 19 in 2822 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 20 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 20 in 2769 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 21 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 21 in 2604 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 22 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 22 in 2615 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 23 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 23 in 2599 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 24 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 24 in 2566 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 25 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 25 in 2665 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 26 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 26 in 2567 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 27 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 27 in 2567 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 28 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 28 in 2632 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 29 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 29 in 2476 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 30 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 30 in 2638 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 31 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 31 in 2603 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 32 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 32 in 2527 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 33 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 33 in 2575 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 34 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 34 in 2555 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 35 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 35 in 2559 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 36 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 36 in 2554 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 37 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 37 in 2650 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 38 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 38 in 2561 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 39 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 39 in 2596 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 40 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 40 in 2604 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 41 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 41 in 2549 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 42 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 42 in 2694 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 43 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 43 in 2588 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 44 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 44 in 2570 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 45 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 45 in 2525 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 46 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 46 in 2615 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 47 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 47 in 2650 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 48 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 48 in 2589 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 49 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 49 in 2625 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 50 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 50 in 2518 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 51 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 51 in 2587 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 52 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 52 in 2677 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 53 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 53 in 2587 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 54 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 54 in 2577 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 55 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 55 in 2644 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 56 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 56 in 2577 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 57 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 57 in 2639 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 58 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 58 in 2573 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 59 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 59 in 2635 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 60 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 60 in 2579 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 61 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 61 in 2543 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 62 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 62 in 2561 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 63 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 63 in 2542 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 64 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 64 in 2590 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 65 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 65 in 2561 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 66 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 66 in 2590 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 67 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 67 in 2625 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 68 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 68 in 2560 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 69 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 69 in 2597 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 70 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 70 in 2542 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 71 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 71 in 2554 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 72 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 72 in 2558 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 73 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 73 in 2657 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 74 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 74 in 2592 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 75 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 75 in 2600 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 76 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 76 in 2520 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 77 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 77 in 2603 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 78 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 78 in 2598 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 79 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 79 in 2564 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 80 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 80 in 2634 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 81 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 81 in 2618 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 82 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 82 in 2521 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 83 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 83 in 2627 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 84 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 84 in 2603 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 85 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 85 in 2596 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 86 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 86 in 2555 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 87 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 87 in 2590 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 88 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 88 in 2601 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 89 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 89 in 2676 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 90 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 90 in 2595 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 91 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 91 in 2563 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 92 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 92 in 2651 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 93 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 93 in 2648 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 94 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 94 in 2608 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 95 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 95 in 2612 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 96 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 96 in 2608 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 97 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 97 in 2671 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 98 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 98 in 2588 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 99 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 99 in 2689 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting =====
+===== DaCapo 23.11-MR2-chopin sunflow PASSED in 2636 msec =====
+[Use -Djdk.graal.LogFile=<path> to redirect Graal log output to a file.]
+Writing benchmark counters to '/graal-dev/pea-testing/dacapo-tests/results/sunflow-20261020-105337/fork-04/pea-runtime.csv'
+=== Static allocation-site outcomes ===
+Total explicit allocation sites: 1877
+PEA-eligible sites by opcode: 1874
+Sites observed by PEA: 134
+Always scalar replaced: 24
+Always materialized: 65
+Always not virtualized: 15
+Mixed across compilation contexts: 30
+
+=== Runtime outcomes in measured machine code ===
+Candidate executions: 529972222
+Initially virtualized: 529963794
+Scalar replaced: 184358093
+Virtualized then materialized: 345605701
+Never virtualized: 8428
+Final heap allocations: 345614129
+Scalar-replacement rate: 34.79%
+Final-heap rate: 65.21%
+
+=== Final PEA materialization reasons ===
+Compile-time final IR occurrences: 513
+call_argument                    compile=  124 | runtime=  13343405
+method_return                    compile=   45 | runtime=   1910677
+instance_field_store             compile=   74 | runtime=  20561273
+array_store                      compile=   33 | runtime=   5932357
+merge_incompatible               compile=   43 | runtime=  66924869
+phi_incompatible                 compile=  194 | runtime= 236933120
+
+=== Fork 5/5 ===
+Using scaled threading model. 16 processors detected, 16 threads used to drive the workload, in a possible range of [1,1024]
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 1 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 1 in 7700 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 2 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 2 in 3234 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 3 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 3 in 2912 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 4 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 4 in 2848 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 5 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 5 in 2850 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 6 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 6 in 2727 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 7 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 7 in 2730 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 8 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 8 in 2715 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 9 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 9 in 2753 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 10 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 10 in 2761 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 11 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 11 in 2768 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 12 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 12 in 2802 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 13 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 13 in 2778 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 14 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 14 in 2787 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 15 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 15 in 2851 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 16 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 16 in 3037 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 17 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 17 in 2910 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 18 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 18 in 2932 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 19 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 19 in 2778 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 20 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 20 in 2959 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 21 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 21 in 2881 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 22 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 22 in 2826 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 23 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 23 in 2771 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 24 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 24 in 2667 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 25 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 25 in 2745 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 26 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 26 in 2768 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 27 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 27 in 2783 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 28 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 28 in 2697 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 29 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 29 in 2727 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 30 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 30 in 2717 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 31 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 31 in 2818 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 32 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 32 in 2799 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 33 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 33 in 2726 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 34 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 34 in 2810 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 35 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 35 in 2760 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 36 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 36 in 2754 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 37 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 37 in 2902 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 38 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 38 in 2666 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 39 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 39 in 2842 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 40 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 40 in 2845 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 41 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 41 in 2822 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 42 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 42 in 2977 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 43 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 43 in 2784 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 44 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 44 in 2780 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 45 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 45 in 2670 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 46 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 46 in 2768 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 47 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 47 in 2836 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 48 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 48 in 2721 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 49 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 49 in 2750 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 50 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 50 in 2767 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 51 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 51 in 2801 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 52 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 52 in 2753 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 53 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 53 in 2804 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 54 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 54 in 2736 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 55 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 55 in 2761 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 56 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 56 in 2952 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 57 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 57 in 2807 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 58 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 58 in 2805 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 59 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 59 in 2775 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 60 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 60 in 2685 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 61 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 61 in 2700 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 62 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 62 in 2840 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 63 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 63 in 2888 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 64 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 64 in 2834 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 65 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 65 in 2785 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 66 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 66 in 2728 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 67 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 67 in 2735 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 68 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 68 in 2888 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 69 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 69 in 2795 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 70 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 70 in 2688 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 71 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 71 in 2903 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 72 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 72 in 2689 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 73 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 73 in 2848 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 74 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 74 in 2839 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 75 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 75 in 2927 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 76 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 76 in 2831 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 77 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 77 in 2713 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 78 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 78 in 2856 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 79 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 79 in 2676 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 80 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 80 in 2796 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 81 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 81 in 2662 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 82 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 82 in 2817 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 83 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 83 in 2816 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 84 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 84 in 2662 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 85 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 85 in 2732 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 86 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 86 in 2750 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 87 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 87 in 2701 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 88 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 88 in 2897 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 89 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 89 in 2779 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 90 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 90 in 2684 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 91 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 91 in 2798 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 92 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 92 in 2821 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 93 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 93 in 2699 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 94 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 94 in 2755 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 95 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 95 in 2718 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 96 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 96 in 2737 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 97 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 97 in 2660 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 98 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 98 in 2824 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting warmup 99 =====
+===== DaCapo 23.11-MR2-chopin sunflow completed warmup 99 in 2832 msec =====
+===== DaCapo 23.11-MR2-chopin sunflow starting =====
+===== DaCapo 23.11-MR2-chopin sunflow PASSED in 2782 msec =====
+[Use -Djdk.graal.LogFile=<path> to redirect Graal log output to a file.]
+Writing benchmark counters to '/graal-dev/pea-testing/dacapo-tests/results/sunflow-20261020-105337/fork-05/pea-runtime.csv'
+=== Static allocation-site outcomes ===
+Total explicit allocation sites: 1877
+PEA-eligible sites by opcode: 1874
+Sites observed by PEA: 146
+Always scalar replaced: 29
+Always materialized: 78
+Always not virtualized: 15
+Mixed across compilation contexts: 24
+
+=== Runtime outcomes in measured machine code ===
+Candidate executions: 529972222
+Initially virtualized: 529963794
+Scalar replaced: 190009818
+Virtualized then materialized: 339953976
+Never virtualized: 8428
+Final heap allocations: 339962404
+Scalar-replacement rate: 35.85%
+Final-heap rate: 64.15%
+
+=== Final PEA materialization reasons ===
+Compile-time final IR occurrences: 493
+call_argument                    compile=  107 | runtime=   1488575
+method_return                    compile=   45 | runtime=   1081221
+instance_field_store             compile=   65 | runtime=  20768637
+array_store                      compile=   34 | runtime=   5932357
+merge_incompatible               compile=   40 | runtime=  75051177
+phi_incompatible                 compile=  202 | runtime= 235632009
+=== DaCapo PEA campaign ===
+Benchmark: sunflow
+Warmups per fork: 99
+Measured iterations per fork: 1
+Independent JVM forks: 5
+Total explicit allocation sites: 1877
+PEA-eligible sites: 1874
+
+Metric                                                Mean          Stddev         Minimum         Maximum
+Static sites observed                             136.4000          5.3666        134.0000        146.0000
+Static always not virtualized                      15.0000          0.0000         15.0000         15.0000
+Static always scalar replaced                      26.8000          2.1679         24.0000         29.0000
+Static always materialized                         68.8000          5.3572         65.0000         78.0000
+Static mixed                                       25.8000          2.6833         24.0000         30.0000
+Runtime candidate executions                529972222.0000          0.0000  529972222.0000  529972222.0000
+Runtime scalar-replaced executions          187597010.0000    2232522.6614  184358093.0000  190009818.0000
+Runtime materialized executions             342366784.0000    2232522.6614  339953976.0000  345605701.0000
+Runtime never-virtualized executions             8428.0000          0.0000       8428.0000       8428.0000
+Runtime final heap allocations              342375212.0000    2232522.6614  339962404.0000  345614129.0000
+Runtime scalar-replacement rate (%)                35.3975          0.4213         34.7864         35.8528
+Runtime final-heap rate (%)                        64.6025          0.4213         64.1472         65.2136
+
+=== Final materialization reasons ===
+Compile-time reason: call_argument                110.2000          8.4676        101.0000        124.0000
+Runtime reason: call_argument                 8786992.4000    6526811.0556    1488575.0000   14359739.0000
+Compile-time reason: method_return                 42.2000          2.9496         38.0000         45.0000
+Runtime reason: method_return                 1537421.8000     424969.7397    1081221.0000    1910677.0000
+Compile-time reason: exception_unwind               0.0000          0.0000          0.0000          0.0000
+Runtime reason: exception_unwind                    0.0000          0.0000          0.0000          0.0000
+Compile-time reason: static_field_store             0.0000          0.0000          0.0000          0.0000
+Runtime reason: static_field_store                  0.0000          0.0000          0.0000          0.0000
+Compile-time reason: instance_field_store          65.6000          6.0663         57.0000         74.0000
+Runtime reason: instance_field_store         19617411.0000    1391598.0669   17994254.0000   20768637.0000
+Compile-time reason: array_store                   33.8000          1.3038         32.0000         35.0000
+Runtime reason: array_store                   5932357.0000          0.0000    5932357.0000    5932357.0000
+Compile-time reason: unsupported_use                0.0000          0.0000          0.0000          0.0000
+Runtime reason: unsupported_use                     0.0000          0.0000          0.0000          0.0000
+Compile-time reason: merge_incompatible            35.4000          5.8566         29.0000         43.0000
+Runtime reason: merge_incompatible           69910048.6000    4732962.9440   66227396.0000   75119405.0000
+Compile-time reason: phi_incompatible             186.2000         13.2740        171.0000        202.0000
+Runtime reason: phi_incompatible            236582553.2000     619846.7236  235632009.0000  237129401.0000
+Compile-time reason: loop_exit_state                0.0000          0.0000          0.0000          0.0000
+Runtime reason: loop_exit_state                     0.0000          0.0000          0.0000          0.0000
+Compile-time reason: loop_analysis_limit            0.0000          0.0000          0.0000          0.0000
+Runtime reason: loop_analysis_limit                 0.0000          0.0000          0.0000          0.0000
+Compile-time reason: lock_constraint                0.0000          0.0000          0.0000          0.0000
+Runtime reason: lock_constraint                     0.0000          0.0000          0.0000          0.0000
+Compile-time reason: virtualizer_requested          0.0000          0.0000          0.0000          0.0000
+Runtime reason: virtualizer_requested               0.0000          0.0000          0.0000          0.0000
+Compile-time reason: object_graph_dependency          0.0000          0.0000          0.0000          0.0000
+Runtime reason: object_graph_dependency             0.0000          0.0000          0.0000          0.0000
+Compile-time reason: lock_order_dependency          0.0000          0.0000          0.0000          0.0000
+Runtime reason: lock_order_dependency               0.0000          0.0000          0.0000          0.0000
+Compile-time reason: other_unknown                  0.0000          0.0000          0.0000          0.0000
+Runtime reason: other_unknown                       0.0000          0.0000          0.0000          0.0000
+
+=== Cross-fork site stability ===
+not_observed_in_all_forks                  12
+stable_always_materialized                 64
+stable_always_not_virtualized              15
+stable_always_scalar_replaced              21
+stable_mixed                               21
+varies_across_forks                        13
+
+Aggregate summary: /graal-dev/pea-testing/dacapo-tests/results/sunflow-20261020-105337/aggregate-summary.txt

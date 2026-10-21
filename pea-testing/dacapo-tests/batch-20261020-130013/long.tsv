@@ -1,0 +1,17 @@
+pmd	Runtime scalar-replacement rate (%)	30.8049
+pmd	Runtime reason: call_argument	1911403.6000
+pmd	Runtime reason: method_return	3645819.6000
+pmd	Runtime reason: exception_unwind	0.0000
+pmd	Runtime reason: static_field_store	0.0000
+pmd	Runtime reason: instance_field_store	346610.0000
+pmd	Runtime reason: array_store	287261.4000
+pmd	Runtime reason: unsupported_use	1482.0000
+pmd	Runtime reason: merge_incompatible	3186901.0000
+pmd	Runtime reason: phi_incompatible	53603375.4000
+pmd	Runtime reason: loop_exit_state	0.0000
+pmd	Runtime reason: loop_analysis_limit	0.0000
+pmd	Runtime reason: lock_constraint	0.0000
+pmd	Runtime reason: virtualizer_requested	0.0000
+pmd	Runtime reason: object_graph_dependency	670474.2000
+pmd	Runtime reason: lock_order_dependency	0.0000
+pmd	Runtime reason: other_unknown	0.0000

@@ -1,0 +1,2 @@
+/graal-dev/pea-testing/pea-test.sh: line 66: bench: unbound variable
+error: unknown benchmark scope; pass --scope

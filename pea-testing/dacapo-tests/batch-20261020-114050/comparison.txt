@@ -1,0 +1,18 @@
+Runtime reason: array_store                        275398.8000
+Runtime reason: call_argument                      604947.8000
+Runtime reason: exception_unwind                        0.0000
+Runtime reason: instance_field_store               271100.2000
+Runtime reason: lock_constraint                      3538.4000
+Runtime reason: lock_order_dependency                   0.0000
+Runtime reason: loop_analysis_limit                     0.0000
+Runtime reason: loop_exit_state                         0.0000
+Runtime reason: merge_incompatible                 151008.6000
+Runtime reason: method_return                      261925.2000
+Runtime reason: object_graph_dependency             21972.6000
+Runtime reason: other_unknown                           0.0000
+Runtime reason: phi_incompatible                  1015961.4000
+Runtime reason: static_field_store                      0.0000
+Runtime reason: unsupported_use                         0.0000
+Runtime reason: virtualizer_requested                   0.0000
+Runtime scalar-replacement rate (%)                    25.1346
+metric                                                     fop

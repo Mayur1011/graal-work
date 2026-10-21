@@ -1,0 +1,18 @@
+Runtime reason: array_store                       5932357.0000
+Runtime reason: call_argument                     8786992.4000
+Runtime reason: exception_unwind                        0.0000
+Runtime reason: instance_field_store             19617411.0000
+Runtime reason: lock_constraint                         0.0000
+Runtime reason: lock_order_dependency                   0.0000
+Runtime reason: loop_analysis_limit                     0.0000
+Runtime reason: loop_exit_state                         0.0000
+Runtime reason: merge_incompatible               69910048.6000
+Runtime reason: method_return                     1537421.8000
+Runtime reason: object_graph_dependency                 0.0000
+Runtime reason: other_unknown                           0.0000
+Runtime reason: phi_incompatible                236582553.2000
+Runtime reason: static_field_store                      0.0000
+Runtime reason: unsupported_use                         0.0000
+Runtime reason: virtualizer_requested                   0.0000
+Runtime scalar-replacement rate (%)                    35.3975
+metric                                                 sunflow

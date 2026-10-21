@@ -1,0 +1,4 @@
+# variant (baseline or a .res file in this directory) | expected runtime scalar-replacement rate (%)
+baseline 0
+selective_A.res 50
+selective_both.res 100

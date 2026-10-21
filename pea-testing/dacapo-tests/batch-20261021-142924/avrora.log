@@ -1,0 +1,399 @@
+Campaign: /graal-dev/pea-testing/dacapo-tests/results/avrora-20261021-142924
+
+=== Fork 1/5 ===
+Version: avrora cvs-20131011 (use -p to print nominal benchmark stats)
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 1 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 1 in 3932 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 2 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 2 in 2281 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 3 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 3 in 2200 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 4 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 4 in 2168 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 5 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 5 in 2337 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 6 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 6 in 2268 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 7 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 7 in 2262 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 8 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 8 in 2343 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 9 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 9 in 2524 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 10 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 10 in 2301 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 11 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 11 in 2363 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 12 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 12 in 2317 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 13 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 13 in 2297 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 14 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 14 in 2196 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 15 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 15 in 2364 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 16 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 16 in 2260 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 17 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 17 in 2419 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 18 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 18 in 2648 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 19 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 19 in 2437 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 20 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 20 in 2553 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 21 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 21 in 2293 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 22 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 22 in 2566 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 23 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 23 in 2604 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 24 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 24 in 2613 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 25 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 25 in 2629 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 26 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 26 in 2767 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 27 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 27 in 2605 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 28 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 28 in 2576 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 29 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 29 in 2590 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 30 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 30 in 2680 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 31 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 31 in 2325 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 32 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 32 in 2388 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 33 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 33 in 2371 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 34 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 34 in 2673 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 35 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 35 in 2510 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 36 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 36 in 2248 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 37 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 37 in 2386 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 38 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 38 in 2313 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 39 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 39 in 2640 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 40 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 40 in 2448 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 41 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 41 in 2661 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 42 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 42 in 2614 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 43 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 43 in 2604 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 44 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 44 in 2481 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 45 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 45 in 2389 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 46 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 46 in 2337 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 47 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 47 in 2433 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 48 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 48 in 2269 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 49 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 49 in 2248 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 50 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 50 in 2215 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 51 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 51 in 2198 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 52 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 52 in 2347 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 53 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 53 in 2482 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 54 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 54 in 2584 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 55 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 55 in 2273 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 56 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 56 in 2161 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 57 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 57 in 2343 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 58 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 58 in 2642 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 59 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 59 in 2667 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 60 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 60 in 2383 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 61 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 61 in 2349 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 62 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 62 in 2254 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 63 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 63 in 2362 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 64 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 64 in 2394 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 65 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 65 in 2616 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 66 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 66 in 2475 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 67 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 67 in 2555 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 68 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 68 in 2622 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 69 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 69 in 2642 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 70 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 70 in 2632 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 71 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 71 in 2651 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 72 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 72 in 2643 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 73 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 73 in 2511 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 74 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 74 in 2288 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 75 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 75 in 2287 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 76 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 76 in 2361 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 77 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 77 in 2374 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 78 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 78 in 2646 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 79 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 79 in 2611 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 80 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 80 in 2587 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 81 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 81 in 2582 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 82 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 82 in 2659 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 83 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 83 in 2393 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 84 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 84 in 2290 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 85 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 85 in 2202 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 86 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 86 in 2232 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 87 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 87 in 2408 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 88 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 88 in 2262 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 89 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 89 in 2359 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 90 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 90 in 2272 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 91 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 91 in 2611 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 92 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 92 in 2667 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 93 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 93 in 2225 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 94 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 94 in 2387 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 95 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 95 in 2468 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 96 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 96 in 2267 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 97 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 97 in 2219 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 98 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 98 in 2122 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 99 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 99 in 2103 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting =====
+===== DaCapo 23.11-MR2-chopin avrora PASSED in 2348 msec =====
+[Use -Djdk.graal.LogFile=<path> to redirect Graal log output to a file.]
+Writing benchmark counters to '/graal-dev/pea-testing/dacapo-tests/results/avrora-20261021-142924/fork-01/pea-runtime.csv'
+=== Static allocation-site outcomes ===
+Total explicit allocation sites: 4668
+PEA-eligible sites by opcode: 4666
+Sites observed by PEA: 165
+Always scalar replaced: 28
+Always materialized: 124
+Always not virtualized: 13
+Mixed across compilation contexts: 0
+
+=== Runtime outcomes in measured machine code ===
+Candidate executions: 539504
+Initially virtualized: 538562
+Scalar replaced: 4602
+Virtualized then materialized: 533960
+Never virtualized: 942
+Final heap allocations: 534902
+Scalar-replacement rate: 0.85%
+Final-heap rate: 99.15%
+
+=== Final PEA materialization reasons ===
+Compile-time final IR occurrences: 354
+call_argument                    compile=   58 | runtime=      6339
+method_return                    compile=   20 | runtime=      1232
+instance_field_store             compile=   67 | runtime=    216568
+array_store                      compile=   52 | runtime=      8775
+merge_incompatible               compile=   12 | runtime=       185
+phi_incompatible                 compile=  118 | runtime=    293549
+lock_constraint                  compile=    1 | runtime=      6216
+object_graph_dependency          compile=   26 | runtime=      1096
+
+=== Fork 2/5 ===
+Version: avrora cvs-20131011 (use -p to print nominal benchmark stats)
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 1 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 1 in 3401 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 2 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 2 in 2284 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 3 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 3 in 2146 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 4 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 4 in 2162 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 5 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 5 in 2124 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 6 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 6 in 2458 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 7 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 7 in 2575 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 8 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 8 in 2705 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 9 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 9 in 2458 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 10 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 10 in 2269 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 11 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 11 in 2238 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 12 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 12 in 2266 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 13 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 13 in 2227 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 14 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 14 in 2447 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 15 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 15 in 2466 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 16 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 16 in 2467 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 17 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 17 in 2571 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 18 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 18 in 2464 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 19 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 19 in 2543 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 20 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 20 in 2564 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 21 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 21 in 2630 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 22 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 22 in 2599 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 23 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 23 in 2450 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 24 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 24 in 2656 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 25 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 25 in 2442 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 26 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 26 in 2230 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 27 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 27 in 2249 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 28 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 28 in 2229 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 29 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 29 in 2440 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 30 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 30 in 2671 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 31 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 31 in 2308 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 32 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 32 in 2252 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 33 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 33 in 2230 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 34 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 34 in 2303 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 35 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 35 in 2483 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 36 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 36 in 2352 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 37 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 37 in 2393 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 38 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 38 in 2332 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 39 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 39 in 2236 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 40 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 40 in 2321 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 41 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 41 in 2279 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 42 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 42 in 2255 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 43 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 43 in 2243 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 44 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 44 in 2247 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 45 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 45 in 2513 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 46 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 46 in 2619 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 47 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 47 in 2631 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 48 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 48 in 2636 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 49 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 49 in 2632 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 50 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 50 in 2697 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 51 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 51 in 2655 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 52 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 52 in 2635 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 53 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 53 in 2648 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 54 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 54 in 2582 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 55 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 55 in 2672 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 56 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 56 in 2671 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 57 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 57 in 2669 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 58 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 58 in 2604 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 59 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 59 in 2641 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 60 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 60 in 2663 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 61 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 61 in 2348 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 62 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 62 in 2159 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 63 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 63 in 2124 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 64 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 64 in 2217 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 65 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 65 in 2466 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 66 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 66 in 2630 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 67 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 67 in 2181 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 68 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 68 in 2203 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 69 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 69 in 2275 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 70 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 70 in 2426 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 71 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 71 in 2309 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 72 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 72 in 2248 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 73 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 73 in 2191 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 74 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 74 in 2207 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 75 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 75 in 2180 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 76 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 76 in 2183 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 77 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 77 in 2196 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 78 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 78 in 2189 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 79 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 79 in 2168 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 80 =====
+===== DaCapo 23.11-MR2-chopin avrora completed warmup 80 in 2312 msec =====
+===== DaCapo 23.11-MR2-chopin avrora starting warmup 81 =====

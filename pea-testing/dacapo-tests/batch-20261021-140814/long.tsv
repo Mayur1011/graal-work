@@ -1,0 +1,17 @@
+xalan	Runtime scalar-replacement rate (%)	24.1120
+xalan	Runtime reason: call_argument	958873.6000
+xalan	Runtime reason: method_return	452608.0000
+xalan	Runtime reason: exception_unwind	0.0000
+xalan	Runtime reason: static_field_store	0.0000
+xalan	Runtime reason: instance_field_store	731545.6000
+xalan	Runtime reason: array_store	2525184.0000
+xalan	Runtime reason: unsupported_use	34816.0000
+xalan	Runtime reason: merge_incompatible	20668.8000
+xalan	Runtime reason: phi_incompatible	341606.4000
+xalan	Runtime reason: loop_exit_state	0.0000
+xalan	Runtime reason: loop_analysis_limit	0.0000
+xalan	Runtime reason: lock_constraint	57257.6000
+xalan	Runtime reason: virtualizer_requested	0.0000
+xalan	Runtime reason: object_graph_dependency	65228.8000
+xalan	Runtime reason: lock_order_dependency	0.0000
+xalan	Runtime reason: other_unknown	0.0000

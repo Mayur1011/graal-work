@@ -1,0 +1,4 @@
+# variant (baseline or a .res file in this directory) | expected runtime scalar-replacement rate (%)
+baseline 0
+nested.res 100
+nested_wrong.res 0

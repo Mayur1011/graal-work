@@ -53,15 +53,38 @@ effectiveness_value() {
 }
 
 default_scope() {
+  # case "$1" in
+  #   avrora) printf 'avrora.' ;;
+  #   fop) printf 'org.apache.fop.' ;;
+  #   h2) printf 'org.h2.' ;;
+  #   luindex|lusearch) printf 'org.apache.lucene.' ;;
+  #   pmd) printf 'net.sourceforge.pmd.' ;;
+  #   sunflow) printf 'org.sunflow.' ;;
+  #   xalan) printf 'org.apache.xalan.,org.apache.xpath.,org.apache.xml.' ;;
+  #   *) return 1 ;;
+  # esac
   case "$1" in
-    avrora) printf 'avrora.' ;;
-    fop) printf 'org.apache.fop.' ;;
-    h2) printf 'org.h2.' ;;
+    avrora)     printf 'avrora.' ;;
+    batik)      printf 'org.apache.batik.' ;;
+    biojava)    printf 'org.biojava.' ;;
+    cassandra)  printf 'org.apache.cassandra.,site.ycsb.,com.yahoo.ycsb.' ;;
+    eclipse)    printf 'org.eclipse.' ;;
+    fop)        printf 'org.apache.fop.' ;;
+    graphchi)   printf 'edu.cmu.graphchi.' ;;
+    h2)         printf 'org.h2.' ;;
+    h2o)        printf 'water.,hex.,ai.h2o.' ;;
+    jme)        printf 'com.jme3.' ;;
+    jython)     printf 'org.python.' ;;
+    kafka)      printf 'org.apache.kafka.,kafka.' ;;
     luindex|lusearch) printf 'org.apache.lucene.' ;;
-    pmd) printf 'net.sourceforge.pmd.' ;;
-    sunflow) printf 'org.sunflow.' ;;
-    xalan) printf 'org.apache.xalan.' ;;
-    *) return 1 ;;
+    pmd)        printf 'net.sourceforge.pmd.' ;;
+    spring)     printf 'org.springframework.' ;;
+    sunflow)    printf 'org.sunflow.' ;;
+    tomcat)     printf 'org.apache.catalina.,org.apache.coyote.,org.apache.tomcat.,org.apache.jasper.' ;;
+    tradebeans|tradesoap)
+                printf 'org.apache.geronimo.,org.apache.openejb.,org.apache.openjpa.,org.apache.axis2.,org.apache.derby.' ;;
+    xalan)      printf 'org.apache.xalan.,org.apache.xpath.,org.apache.xml.' ;;
+    zxing)      printf 'com.google.zxing.' ;;
   esac
 }
 
@@ -281,7 +304,7 @@ if [[ "$MODE" == dacapo ]]; then
     VM_OPTS+=("${VM_EXTRA_OPTS[@]}")
     metadata "$D/metadata.txt" "fork=$i" "warmup=$WARMUP" 'measured=1'
     write_vm_options "$D/vm-options.txt" "${VM_OPTS[@]}"
-    (cd "$COMPILER" && mx vm "${VM_OPTS[@]}" -jar "$DACAPO_JAR" -n "$((WARMUP+1))" --preserve --scratch-directory "$D/scratch" "$BENCHMARK") 2>&1 | tee "$D/console.log"
+    (cd "$COMPILER" && mx vm "${VM_OPTS[@]}" -jar "$DACAPO_JAR" -n "$((WARMUP+1))" --preserve --scratch-directory "$D/scratch" "$BENCHMARK") 2>&1 | tee "$D/console.log" || { printf 'dacapo exited non-zero (validation?); see console.log\n' | tee "$D/dacapo-failed.txt" >&2; }
     check_output "$D"; print_one_summary "$CAMPAIGN/allocation-inventory.csv" "$D/pea-effectiveness.csv" "$D/pea-runtime.csv" "$D/pea-materialization-reasons.csv" | tee "$D/summary.txt"
   done
   aggregate "$CAMPAIGN" "$BENCHMARK" "$WARMUP" "$FORKS" | tee "$CAMPAIGN/aggregate-console-summary.txt"

@@ -1,0 +1,17 @@
+lusearch	Runtime scalar-replacement rate (%)	59.8083
+lusearch	Runtime reason: call_argument	13294560.8000
+lusearch	Runtime reason: method_return	8480334.8000
+lusearch	Runtime reason: exception_unwind	0.0000
+lusearch	Runtime reason: static_field_store	0.0000
+lusearch	Runtime reason: instance_field_store	17366853.2000
+lusearch	Runtime reason: array_store	27064592.2000
+lusearch	Runtime reason: unsupported_use	0.0000
+lusearch	Runtime reason: merge_incompatible	2352627.0000
+lusearch	Runtime reason: phi_incompatible	4086081.0000
+lusearch	Runtime reason: loop_exit_state	0.0000
+lusearch	Runtime reason: loop_analysis_limit	0.0000
+lusearch	Runtime reason: lock_constraint	0.0000
+lusearch	Runtime reason: virtualizer_requested	0.0000
+lusearch	Runtime reason: object_graph_dependency	1012419.0000
+lusearch	Runtime reason: lock_order_dependency	0.0000
+lusearch	Runtime reason: other_unknown	0.0000

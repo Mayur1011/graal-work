@@ -1,0 +1,3 @@
+# variant (baseline or a .res file in this directory) | expected runtime scalar-replacement rate (%)
+baseline 0
+virtual.res 100

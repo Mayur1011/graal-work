@@ -1,0 +1,17 @@
+jython	Runtime scalar-replacement rate (%)	24.9130
+jython	Runtime reason: call_argument	18263263.4000
+jython	Runtime reason: method_return	8128992.6000
+jython	Runtime reason: exception_unwind	0.0000
+jython	Runtime reason: static_field_store	0.0000
+jython	Runtime reason: instance_field_store	1689998.0000
+jython	Runtime reason: array_store	349578.0000
+jython	Runtime reason: unsupported_use	50002.0000
+jython	Runtime reason: merge_incompatible	867432.2000
+jython	Runtime reason: phi_incompatible	7106825.6000
+jython	Runtime reason: loop_exit_state	0.0000
+jython	Runtime reason: loop_analysis_limit	0.0000
+jython	Runtime reason: lock_constraint	50000.0000
+jython	Runtime reason: virtualizer_requested	0.0000
+jython	Runtime reason: object_graph_dependency	75655.2000
+jython	Runtime reason: lock_order_dependency	0.0000
+jython	Runtime reason: other_unknown	0.0000
